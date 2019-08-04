@@ -37,28 +37,3 @@ branch_task >> weekday_task
 branch_task >> weekend_task
 
 
-
-
-
-"""
-task_failure = DummyOperator(
-        task_id='task_failure',       
-        trigger_rule=TriggerRule.ALL_FAILED,
-        dag=dag)
-        
-task_follow_failure = DummyOperator(
-        task_id='task_follow_failure',       
-        trigger_rule=TriggerRule.ALL_SUCCESS,
-        dag=dag)
-
-task_success = DummyOperator(
-        task_id='task_success',        
-        trigger_rule=TriggerRule.ALL_SUCCESS,        
-        dag=dag)
-
-cleanup_task = DummyOperator(
-        task_id='cleanup_task',
-        trigger_rule=TriggerRule.ONE_SUCCESS,
-        dag=dag)
-"""
-
