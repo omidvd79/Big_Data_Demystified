@@ -10,7 +10,7 @@ dag = DAG(
 
 GCS_Delete_via_Bash_Example = BashOperator(
         task_id='GCS_Delete_via_Bash_Example', 
-        bash_command='gsutil rm -r gs://data_lake_ingestion_us/dfp_data_transfer_impressions_unified_parquet/*',      
+        bash_command='gsutil rm -r gs://my_bucket/*',      
         dag=dag)
         
 GCS_Delete_via_Bash_Example
