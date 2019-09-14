@@ -10,21 +10,21 @@ with DAG(dag_id='simple_athena_query',
     run_query = AWSAthenaOperator(
         task_id='run_query',
         query="select * from sampledb.elb_logs",
-        output_location='s3://data-lake-ingestion/athena-output/',
+        output_location='s3://ingestion/athena-output/',
         database='sampledb'
     )
  
     drop_query = AWSAthenaOperator(
         task_id='drop_query',
         query="drop TABLE if exists data_lake_transformation.elb_logs_parquet",
-        output_location='s3://data-lake-tranformation/athena-output/',
+        output_location='s3://tranformation/athena-output/',
         database='data_lake_transformation'
     )
     
     transform_query = AWSAthenaOperator(
         task_id='transform_query',
         query="CREATE TABLE data_lake_transformation.elb_logs_parquet WITH (format = 'PARQUET') AS SELECT * FROM $
-        output_location='s3://data-lake-tranformation/athena-output/',
+        output_location='s3://tranformation/athena-output/',
         database='sampledb'
     )
 
