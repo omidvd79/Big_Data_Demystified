@@ -1,0 +1,17 @@
+ 
+select 
+resource.labels.project_id	as project_id,
+protopayload_auditlog.authenticationInfo.principalEmail	as user,
+protopayload_auditlog.servicedata_v1_bigquery.jobQueryResponse.job.jobStatistics.startTime as startTime,
+cast(protopayload_auditlog.servicedata_v1_bigquery.jobQueryResponse.job.jobStatistics.startTime as date) as date,
+protopayload_auditlog.requestMetadata.callerSuppliedUserAgent	as userAgent,
+protopayload_auditlog.servicedata_v1_bigquery.jobQueryRequest.query as query,
+ protopayload_auditlog.servicedata_v1_bigquery.jobQueryResponse.job.jobStatistics.totalBilledBytes 
+/1024/1024/1024/1024*5
+as cost
+ 
+from
+`MyProject.MyDataset.cloudaudit_googleapis_com_data_access_20190919`  
+ where protopayload_auditlog.servicedata_v1_bigquery.jobQueryRequest.query  is not null
+ and protopayload_auditlog.servicedata_v1_bigquery.jobQueryResponse.job.jobStatistics.totalBilledBytes is not null
+ order by cost desc
