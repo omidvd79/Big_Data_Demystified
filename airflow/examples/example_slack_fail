@@ -1,0 +1,32 @@
+import airflow
+import datetime as dt
+from airflow.models import DAG
+from airflow.operators.bash_operator import BashOperator
+from airflow.operators.dummy_operator import DummyOperator
+from airflow.operators.slack_operator import SlackAPIPostOperator
+
+
+dag = DAG(
+    dag_id='example_slack_fail',
+    schedule_interval='@once',
+    start_date=dt.datetime(2019, 2, 28)
+)
+
+
+def slack_failed_task(context):  
+    failed_alert = SlackAPIPostOperator(
+        task_id='slack_failed',
+        channel="#data",
+        token="mySlackAPiToken",
+        text = ':red_circle: Airflow Task Failed, Contact Data Engineering team',
+        username = 'airflow',)
+    return failed_alert.execute(context=context)
+
+
+bash_fail_task = BashOperator(
+    task_id='bash_fail_task',
+    bash_command='exit 1',
+    on_failure_callback=slack_failed_task,
+    dag=dag)
+
+bash_fail_task
