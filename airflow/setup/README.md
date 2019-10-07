@@ -1,4 +1,4 @@
-Installation manual / blog :
+**Airflow Installation manual / blog **:
  [Big Data Demystified airflow installation manual](https://big-data-demystified.ninja/2018/08/15/airflow-installation-manual-and-workflow-example/)
  
 relevant scripts:
