@@ -11,5 +11,7 @@ Setup HTTPS / SSL certificate for airflow
 
  [Big Data Demystified airflow SSL setup manual](https://big-data-demystified.ninja/2019/10/07/airflow-setup-of-ssl-certificate-https-example/
 )
+
 relevant scripts:
+
 create_ssl.sh
