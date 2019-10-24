@@ -1,0 +1,26 @@
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+step 0, elapsed time 0.66 seconds, training accuracy 11.000%
+step 100, elapsed time 19.56 seconds, training accuracy 89.000%
+step 200, elapsed time 38.48 seconds, training accuracy 93.000%
+step 300, elapsed time 57.19 seconds, training accuracy 90.000%
+step 400, elapsed time 74.56 seconds, training accuracy 93.000%
+step 500, elapsed time 90.92 seconds, training accuracy 91.000%
+step 600, elapsed time 110.26 seconds, training accuracy 95.000%
+step 700, elapsed time 128.00 seconds, training accuracy 94.000%
+step 800, elapsed time 146.53 seconds, training accuracy 96.000%
+step 900, elapsed time 171.83 seconds, training accuracy 96.000%
+step 1000, elapsed time 196.51 seconds, training accuracy 96.000%
+step 1100, elapsed time 221.42 seconds, training accuracy 95.000%
+step 1200, elapsed time 246.82 seconds, training accuracy 94.000%
+step 1300, elapsed time 271.22 seconds, training accuracy 95.000%
+step 1400, elapsed time 297.71 seconds, training accuracy 100.000%
+step 1500, elapsed time 320.17 seconds, training accuracy 98.000%
+step 1600, elapsed time 341.90 seconds, training accuracy 100.000%
+step 1700, elapsed time 362.63 seconds, training accuracy 98.000%
+step 1800, elapsed time 381.13 seconds, training accuracy 100.000%
+step 1900, elapsed time 406.32 seconds, training accuracy 99.000%
+Total training time for 2000 batches: 426.55 seconds
+Test accuracy 98.120%
