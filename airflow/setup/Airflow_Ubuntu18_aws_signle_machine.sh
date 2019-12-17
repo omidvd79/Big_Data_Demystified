@@ -1,7 +1,5 @@
 sudo apt-get update
 
-#sudo apt-get update –fix-missing
-
 sudo apt-get -y install build-essential autoconf libtool pkg-config python-opengl python-imaging python-pyrex python-pyside.qtopengl idle-python2.7 qt4-dev-tools qt4-designer libqtgui4 libqtcore4 libqt4-xml libqt4-test libqt4-script libqt4-network libqt4-dbus python-qt4 python-qt4-gl libgle3 python-dev
 
 sudo apt-get -y install python-setuptools python-dev build-essential
