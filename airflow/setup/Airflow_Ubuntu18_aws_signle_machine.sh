@@ -14,4 +14,4 @@ sudo -H pip3 install apache-airflow[all_dbs]
 sudo -H pip3 install apache-airflow[devel]
 
 sudo pip3 install apache-airflow[all]
-#error on setup of kerberos , TBD FIX should good to get started
+#error on setup of kerberos, SASL. TBD, should be good to get started
