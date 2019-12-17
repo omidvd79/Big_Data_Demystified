@@ -6,6 +6,8 @@ sudo apt install -y python3-pip  python-boto3
 
 pip3 install pystan
 
+sudo pip3 install --upgrade setuptools
+
 sudo pip3 install apache-airflow
 
 sudo -H pip3 install apache-airflow[all_dbs]
