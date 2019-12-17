@@ -4,7 +4,7 @@ sudo apt-get -y install build-essential autoconf libtool pkg-config python-openg
 
 sudo apt install -y python3-pip  python-boto3
 
-pip3 install pystan
+sudo pip3 install pystan
 
 sudo pip3 install --upgrade setuptools
 
