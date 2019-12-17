@@ -18,3 +18,5 @@ sudo -H pip3 install apache-airflow[all_dbs]
 sudo -H pip3 install apache-airflow[devel]
 
 sudo pip3 install apache-airflow[all]
+
+echo ***** Now is the time you run: airflow initdb (if this is a first installation)
