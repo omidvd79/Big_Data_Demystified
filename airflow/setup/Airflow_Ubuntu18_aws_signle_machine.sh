@@ -9,6 +9,7 @@ pip3 install pystan
 sudo pip3 install apache-airflow
 
 sudo -H pip3 install apache-airflow[all_dbs]
+# error on pymssql/, will be fixed later.
 
 sudo -H pip3 install apache-airflow[devel]
 
