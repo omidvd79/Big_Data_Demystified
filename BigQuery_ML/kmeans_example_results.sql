@@ -1,0 +1,9 @@
+SELECT
+  CENTROID_ID,
+  pvs,
+  sessions,
+  visits
+FROM
+  BQ_ML.test3
+LIMIT
+  10
