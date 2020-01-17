@@ -44,7 +44,7 @@ with models.DAG('loop_over_gcs_bucket_files_example', schedule_interval=None, de
 	wait  = DummyOperator(task_id='wait',trigger_rule=TriggerRule.ONE_SUCCESS)	
 	for blob in client.list_blobs('myBucket', prefix='myFolder/mySubfolder'):
 		#task id must only contain alphanumeric chars
-		bash_cmd="echo "+ str(blob)
+		bash_cmd="echo "+ str(blob.name)
 		i=i+1
 		bash_operator = BashOperator(task_id='bash_operator'+str(i),bash_command=bash_cmd)
 		start.set_downstream(bash_operator)
