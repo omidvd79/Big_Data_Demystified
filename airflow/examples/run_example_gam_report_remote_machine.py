@@ -87,4 +87,14 @@ with models.DAG(
 	##notice trigger_rule="all_done"
 	run_gsutil_mv = BashOperator(task_id='bash_gsutil_mv_cmd',retries=0,bash_command=bash_gsutil_mv_cmd,trigger_rule="all_done")
 	
-wait >> run_gsutil_mv >> end
+	load_to_bq_from_gcs = gcs_to_bq.GoogleCloudStorageToBigQueryOperator(
+    		task_id='load_to_bq_from_gcs',
+    		source_objects='*',
+    		skip_leading_rows=1,
+    		create_disposition='CREATE_NEVER',
+    		write_disposition='WRITE_TRUNCATE', #overwrite?
+    		bucket='myBucket/google/gam/example_report',
+    		destination_project_dataset_table='DATA_LAKE_GOOGLE_US.example_report_partitioned'
+    	)
+	
+wait >> run_gsutil_mv >> load_to_bq_from_gcs >> end
