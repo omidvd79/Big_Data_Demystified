@@ -102,11 +102,11 @@ def main(argv):
    try:
       opts, args = getopt.getopt(argv,"hi:o:",["start=","end="])
    except getopt.GetoptError:
-      print ('example_python_command_line_arguments.py -s <startDate> -e <endDate>')
+      print ('scriptName.py -s <startDate> -e <endDate>')
       sys.exit(2)
    for opt, arg in opts:
       if opt == '-h':
-         print ('example_python_command_line_arguments.py -s <startDate> -e <endDate>')
+         print ('scriptName.py -s <startDate> -e <endDate>')
          sys.exit()
       elif opt in ("-s", "--start"):
          startDate = arg
@@ -117,4 +117,8 @@ def main(argv):
    report(KEY_FILE, APPLICATION_NAME,startDate,endDate)
    
 if __name__ == '__main__':
-  main(sys.argv[1:])
+  if len(sys.argv) == 1:
+		print ('usage error, try: scriptName.py --start <startDate> --end <endDate>')
+		sys.exit(2)
+	else:
+		main(sys.argv[1:])
