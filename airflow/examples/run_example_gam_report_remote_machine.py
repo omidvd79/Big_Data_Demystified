@@ -76,7 +76,7 @@ with models.DAG(
 		bash_cleanup = BashOperator(task_id='bash_cleanup_'+temp_date,retries=0,bash_command=bash_cleanup_cmd,trigger_rule="all_done")
 		
 		##notice trigger_rule="all_done"
-		bash_run_report_remotly_cmd='gcloud beta compute --project ynet-data-analytics ssh scheduler2 --internal-ip --zone us-central1-a --command "sudo -u omid python3 /home/omid/gam_data_transfer/report_example_using_service_account_with_date_range.py --start '+temp_date+" --end "+temp_date+'"'
+		bash_run_report_remotly_cmd='gcloud beta compute --project myProjectName ssh scheduler2 --internal-ip --zone us-central1-a --command "sudo -u omid python3 /home/omid/gam_data_transfer/report_example_using_service_account_with_date_range.py --start '+temp_date+" --end "+temp_date+'"'
 		run_report_remotly = BashOperator(task_id='run_report_remotly_'+temp_date,retries=0,bash_command=bash_run_report_remotly_cmd,trigger_rule="all_done")
 
 
