@@ -48,7 +48,7 @@ end_date = datetime.date.today()
 
 bash_run_report_remotly_cmd='gcloud beta compute --project myProjectName ssh myInstanceNAme --internal-ip --zone us-central1-a --command "sudo -u omid python3 /home/omid/gam_data_transfer/report_example_using_service_account_with_date_range.py --start 2020-02-27 --end 2020-02-27"'
 
-bash_gsutil_mv_cmd='gcloud beta compute --project ynet-data-myProjectName ssh myInstanceNAme --internal-ip --zone us-central1-a --command "sudo -u omid gsutil -m mv /tmp/*report_example_using_service_account_with_date_range* gs://myBucket/google/gam/example_report"'
+bash_gsutil_mv_cmd='gcloud beta compute --project myProjectName ssh myInstanceNAme --internal-ip --zone us-central1-a --command "sudo -u omid gsutil -m mv /tmp/*report_example_using_service_account_with_date_range* gs://myBucket/google/gam/example_report"'
 
 #the python creates a random temporary file name suffix, so we delete the files in teh bucket before we proceed 
 bash_cleanup_cmd='gsutil rm gs://myBucket/google/gam/example_report/*report_example_using_service_account_with_date_range_2020-02-26*'
