@@ -1,7 +1,7 @@
 # pip
 sudo apt update
-sudo apt install python-pip
-sudo apt install python3-pip
+sudo apt install -y python-pip
+sudo apt install -y python3-pip
 
 # GCS fuse
 export GCSFUSE_REPO=gcsfuse-`lsb_release -c -s`
