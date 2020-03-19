@@ -4,8 +4,7 @@ sudo apt install -y python-pip
 sudo apt install -y python3-pip
 
 # pip packges:
-pip install google-cloud
-
+pip install google-cloud google-cloud-storage
 
 # GCS fuse
 export GCSFUSE_REPO=gcsfuse-`lsb_release -c -s`
