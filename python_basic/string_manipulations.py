@@ -7,3 +7,9 @@ print str.endswith(suffix)
 str = "Big Data" 
 if "Data" in str:
    print ("True")
+   
+#string occurnaces:
+str ="Does Big Data acctuall mean Data Demystified?"
+#finding occurrences of 'Data'
+#in complete string
+print(str.count("Data"))
