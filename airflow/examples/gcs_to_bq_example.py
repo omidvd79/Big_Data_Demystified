@@ -26,5 +26,5 @@ gcs2bq=gcs_to_bq.GoogleCloudStorageToBigQueryOperator(
     destination_project_dataset_table='MyDataSet.MyTable',
     skip_leading_rows=1,
     default_args=args,
-    dag=dag,
+    dag=dag
 )
