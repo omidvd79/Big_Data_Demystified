@@ -57,16 +57,17 @@ def execute_request(service, property_uri, request):
       siteUrl=property_uri, body=request).execute()
 
 
-def save_table(response):
-  text='country,device,page,query,clicks,impressions,ctr,position'+'\n'
+def save_table(response,start_date,end_date):
+  text='start_date,end_date,country,device,page,query,clicks,impressions,ctr,position'+'\n'
   if 'rows' not in response:
     return text
 
   rows = response['rows']
   for row in rows:
+	text=text+start_date+","+end_date+","
   	metrics=str(row['clicks'])+","+str(row['impressions'])+","+ str(row['ctr'])+","+ str(row['position'])
 	for key in row['keys']:
-		text=text+key.encode('utf-8').strip()+","
+		text=text+'"'+key.encode('utf-8').replace('\n','').strip()+"\","
 	text=text+metrics+"\n"
 	
   return text
@@ -76,7 +77,7 @@ def save_table(response):
 def write_reponse_to_file(response,start_date,end_date):
 	
 	file = open("/tmp/search_console_"+start_date+"__"+end_date+".csv", "w")
-	file.write(save_table(response))
+	file.write(save_table(response,start_date,end_date))
 	file.close()
 
 if __name__ == '__main__':
