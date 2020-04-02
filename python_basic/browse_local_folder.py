@@ -1,3 +1,6 @@
+# credit goes to author of this post:
+# https://stackoverflow.com/questions/2212643/python-recursive-folder-read
+
 import os
 import sys
 
