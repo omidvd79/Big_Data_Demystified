@@ -2,7 +2,7 @@
 from os import listdir
 from os.path import isfile, join
 mypath='/tmp/imedis/'
-def itterate_folder(mypath):
+def iterate_folder(mypath):
         #print ("in path: "+mypath)
         onlyFiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
         onlyFolders = [f for f in listdir(mypath) if not isfile(join(mypath, f))]
@@ -12,4 +12,4 @@ def itterate_folder(mypath):
                 itterate_folder(join(mypath,folder))
         for file in onlyFiles:
                 print join(mypath,file)
-itterate_folder(mypath)
+iterate_folder(mypath)
