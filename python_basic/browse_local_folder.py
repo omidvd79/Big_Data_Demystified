@@ -1,29 +1,15 @@
-# credit goes to author of this post:
-# https://stackoverflow.com/questions/2212643/python-recursive-folder-read
-
-import os
-import sys
-
-walk_dir = sys.argv[1]
-
-print('walk_dir = ' + walk_dir)
-
-# If your current working directory may change during script execution, it's recommended to
-# immediately convert program arguments to an absolute path. Then the variable root below will
-# be an absolute path as well. Example:
-# walk_dir = os.path.abspath(walk_dir)
-print('walk_dir (absolute) = ' + os.path.abspath(walk_dir))
-
-for root, subdirs, files in os.walk(walk_dir):
-    print('--\nroot = ' + root)
-    list_file_path = os.path.join(root,'my-directory-list.txt')
-    print('list_file_path = ' + list_file_path)
-
-    with open(list_file_path, 'wb') as list_file:
-        for subdir in subdirs:
-            print('\t- subdirectory ' + subdir)
-
-        for filename in files:
-            file_path = os.path.join(root, filename)
-
-            print('\t- file %s (full path: %s)' % (filename, file_path))
+                                               
+from os import listdir
+from os.path import isfile, join
+mypath='/tmp/imedis/'
+def itterate_folder(mypath):
+        #print ("in path: "+mypath)
+        onlyFiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
+        onlyFolders = [f for f in listdir(mypath) if not isfile(join(mypath, f))]
+                
+        for folder in onlyFolders:
+                #print join(mypath,folder)
+                itterate_folder(join(mypath,folder))
+        for file in onlyFiles:
+                print join(mypath,file)
+itterate_folder(mypath)
