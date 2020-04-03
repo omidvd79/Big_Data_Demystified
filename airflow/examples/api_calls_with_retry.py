@@ -67,6 +67,5 @@ with models.DAG(
 			day_after_single_date=day_after_single_date.strftime("%Y-%m-%d")
 
 			##notice trigger_rule="all_done'
-			run_report_remotly_status = BashOperator(task_id='run_report_remotly_'+temp_date,retries=2,bash_command=bash_run_report_remotly_cmd,trigger_rule="all_done")
-
-start >>  run_report_remotly_status >> end
+			run_report_remotly_status = BashOperator(task_id='run_report_remotly_'+temp_date,retries=2,retry_delay=datetime.timedelta(seconds=30),retry_exponential_backoff=True,max_retry_delay=datetime.timedelta(minutes=20),bash_command=bash_run_report_remotly_cmd,trigger_rule="all_done")
+			start >>  run_report_remotly_status >> end
