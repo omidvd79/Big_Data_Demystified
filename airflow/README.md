@@ -34,26 +34,27 @@ Big Data Demystified meetup and blog examples. For related Blogs for the commmit
 
 [Airflow Dynamic Operators used in google ad manager API data pipeline | GAM demystified](https://big-data-demystified.ninja/2020/02/29/airflow-dynamic-operators-used-in-google-ad-manager-api-data-pipeline-gam-demystified/)
 
-https://big-data-demystified.ninja/2020/02/27/how-to-connect-to-google-ad-manager-via-python-api/
+[How to connect to Google Ad manager via python API | GAM demystified](https://big-data-demystified.ninja/2020/02/27/how-to-connect-to-google-ad-manager-via-python-api/)
 
 # Airflow setup Demystified:
-https://big-data-demystified.ninja/2019/12/08/airflow-demystified-big-data-demystified/
 
-https://big-data-demystified.ninja/2018/08/15/airflow-installation-manual-and-workflow-example/
+[Airflow Demystified | Big Data Demystified](https://big-data-demystified.ninja/2019/12/08/airflow-demystified-big-data-demystified/)
 
-https://big-data-demystified.ninja/2019/10/20/airflow-demystified-everything-you-need-to-know-about-diy-localexecutor-airflow-cluster-backed-by-mysql/
+[Airflow SequentialExecutor Installation manual and basic commands](https://big-data-demystified.ninja/2018/08/15/airflow-installation-manual-and-workflow-example/)
 
-https://big-data-demystified.ninja/2020/03/23/airflow-performance-tuning-in-5-min/
+[Airflow Demystified | Everything you need to know about installing a DIY LocalExecutor Airflow cluster backed by MySQL Cloud SQL](https://big-data-demystified.ninja/2019/10/20/airflow-demystified-everything-you-need-to-know-about-diy-localexecutor-airflow-cluster-backed-by-mysql/)
 
-https://big-data-demystified.ninja/2019/10/20/airflow-demystified-everything-you-need-to-know-about-diy-localexecutor-airflow-cluster-backed-by-mysql/
+[Airflow Performance tuning in 5 min](https://big-data-demystified.ninja/2020/03/23/airflow-performance-tuning-in-5-min/)
 
-https://big-data-demystified.ninja/2019/10/15/mounting-gcs-as-fuse-for-airflow/
+[Airflow Demystified | Everything you need to know about installing a DIY LocalExecutor Airflow cluster backed by MySQL Cloud SQL](https://big-data-demystified.ninja/2019/10/20/airflow-demystified-everything-you-need-to-know-about-diy-localexecutor-airflow-cluster-backed-by-mysql/)
 
-https://big-data-demystified.ninja/2019/10/07/airflow-setup-of-ssl-certificate-https-example/
+[mounting GCS as FUSE for Airflow](https://big-data-demystified.ninja/2019/10/15/mounting-gcs-as-fuse-for-airflow/)
 
-https://big-data-demystified.ninja/2019/10/03/airflow-mysql-integration-how-to/
+[Airflow – setup of SSL Certificate – HTTPS example](https://big-data-demystified.ninja/2019/10/07/airflow-setup-of-ssl-certificate-https-example/)
 
-https://big-data-demystified.ninja/2019/10/03/airflow-and-slack-integration/
+[Airflow MySQL Integration – how to?](https://big-data-demystified.ninja/2019/10/03/airflow-mysql-integration-how-to/)
+
+[Airflow and Slack Integration](https://big-data-demystified.ninja/2019/10/03/airflow-and-slack-integration/)
 
 # Meetups:
 
