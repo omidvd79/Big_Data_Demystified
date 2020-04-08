@@ -50,7 +50,7 @@ Big Data Demystified meetup and blog examples. For related Blogs for the commmit
 
 [Airflow and Slack Integration](https://big-data-demystified.ninja/2019/10/03/airflow-and-slack-integration/)
 
-# Meetups - Video and Slides [ A bout airflow use cases ]:
+# Meetups - Video and Slides [ About airflow use cases ]:
 
 [Airflow Demystified | Big Data Demystified](https://big-data-demystified.ninja/2019/12/08/airflow-demystified-big-data-demystified/)
 
