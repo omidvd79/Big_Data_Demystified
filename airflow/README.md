@@ -7,34 +7,56 @@ For related Blogs for the commmited airflow blogs and code examples:https://big-
 
 Airflow Usecases:
 https://big-data-demystified.ninja/2020/01/07/similar-web-api-data-pipeline-airflow-cost-reduction/
+
 https://big-data-demystified.ninja/2019/11/27/bigquery-sharded-table-loading-via-airflow-dynamic-workflow-template-fields-and-loop-dfp-data-transfer-files-use-case/
+
 https://big-data-demystified.ninja/2019/11/14/airflow-file-sensor-example-airflow-demystified/
+
 https://big-data-demystified.ninja/2019/11/14/attributeerror-nonetype-object-has-no-attribute-create_dagrun-airflow-demystified/
+
 https://big-data-demystified.ninja/2019/11/24/gcp-dataproc-demystified-bq-vs-dataproc-cost-reduction-use-case/
+
 https://big-data-demystified.ninja/2019/11/04/how-to-ssh-to-a-remote-gcp-machine-and-run-a-command-via-airflow/
+
 https://big-data-demystified.ninja/2019/11/03/how-to-debug-bigquery-query-failure-in-airflow-dag/
+
 https://big-data-demystified.ninja/2019/10/16/how-to-connect-gcp-composer-cloud-sql-database-and-migrate-data-to-bq-is-it-possible-what-are-my-options/
 
 https://big-data-demystified.ninja/2019/10/20/airflow-demystified-everything-you-need-to-know-about-diy-localexecutor-airflow-cluster-backed-by-mysql/
 
 https://big-data-demystified.ninja/2019/02/18/air-flow-example-of-job-data-composer-gcp/
+
 https://big-data-demystified.ninja/2020/02/02/how-to-convert-colabs-notebook-into-python-and-scheduling-it-in-apache-airflow/
+
 https://big-data-demystified.ninja/2020/02/09/data-engineering-use-cases-airflow-cost-reduction-bq-ml/
+
 https://big-data-demystified.ninja/2020/02/11/why-the-author-of-were-all-using-airflow-wrong-and-how-to-fix-it-needs-to-attend-my-meetup/
+
 https://big-data-demystified.ninja/2020/04/03/airflow-use-case-improving-success-rate-of-api-calls/
+
 https://big-data-demystified.ninja/2020/03/31/apps-flyer-data-locker-data-pipeline-use-case-how-to-copy-from-aws-s3-bucket-to-gcs-bucket/
+
 https://big-data-demystified.ninja/2020/03/22/google-search-console-api-python-demystified/
+
 https://big-data-demystified.ninja/2020/02/29/airflow-dynamic-operators-used-in-google-ad-manager-api-data-pipeline-gam-demystified/
+
 https://big-data-demystified.ninja/2020/02/27/how-to-connect-to-google-ad-manager-via-python-api/
 
 Airflow setup:
 https://big-data-demystified.ninja/2019/12/08/airflow-demystified-big-data-demystified/
+
 https://big-data-demystified.ninja/2018/08/15/airflow-installation-manual-and-workflow-example/
+
 https://big-data-demystified.ninja/2020/03/23/airflow-performance-tuning-in-5-min/
+
 https://big-data-demystified.ninja/2019/10/20/airflow-demystified-everything-you-need-to-know-about-diy-localexecutor-airflow-cluster-backed-by-mysql/
+
 https://big-data-demystified.ninja/2019/10/15/mounting-gcs-as-fuse-for-airflow/
+
 https://big-data-demystified.ninja/2019/10/07/airflow-setup-of-ssl-certificate-https-example/
+
 https://big-data-demystified.ninja/2019/10/03/airflow-mysql-integration-how-to/
+
 https://big-data-demystified.ninja/2019/10/03/airflow-and-slack-integration/
 
 Meetups:
