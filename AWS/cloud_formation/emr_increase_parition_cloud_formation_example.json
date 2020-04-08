@@ -1,0 +1,332 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Conditions": {
+    "Hbase": {
+      "Fn::Equals": [
+        {
+          "Ref": "Applications"
+        },
+        "Hbase"
+      ]
+    },
+    "Spark": {
+      "Fn::Equals": [
+        {
+          "Ref": "Applications"
+        },
+        "Spark"
+      ]
+    }
+  },
+  "Description": "myProdCluster",
+  "Mappings": {
+    
+  },
+  "Outputs": {
+    
+  },
+  "Parameters": {
+    "Applications": {
+      "AllowedValues": [
+        "Spark",
+        "TBD"
+      ],
+      "Description": "Cluster setup:",
+      "Type": "String"
+    },
+    "CoreInstanceType": {
+      "Default": "r4.4xlarge",
+      "Description": "Instance type to be used for core instances.",
+      "Type": "String"
+    },
+    "EMRClusterName": {
+      "Default": "myProdCluster",
+      "Description": "Name of the cluster",
+      "Type": "String"
+    },
+    "KeyName": {
+      "Default": "walla_omid",
+      "Description": "Must be an existing Keyname",
+      "Type": "String"
+    },
+    "LogUri": {
+      "Default": "s3://aws-logs-1123-eu-west-1/elasticmapreduce/",
+      "Description": "Must be a valid S3 URL",
+      "Type": "String"
+    },
+    "MasterInstacneType": {
+      "Default": "r4.4xlarge",
+      "Description": "Instance type to be used for the master instance.",
+      "Type": "String"
+    },
+    "NumberOfCoreInstances": {
+      "Default": 2,
+      "Description": "Must be a valid number",
+      "Type": "Number"
+    },
+    "ReleaseLabel": {
+      "Default": "emr-5.13.0",
+      "Description": "Must be a valid EMR release version",
+      "Type": "String"
+    },
+    "S3DataUri": {
+      "Default": "s3://aws-logs-1234-eu-west-1/elasticmapreduce/",
+      "Description": "Must be a valid S3 bucket URL ",
+      "Type": "String"
+    },
+    "SubnetID": {
+      "Default": "subnet-0647325e",
+      "Description": "Must be Valid public subnet ID",
+      "Type": "String"
+    }
+  },
+  "Resources": {
+    "EMRCluster": {
+      "DependsOn": [
+        "EMRClusterServiceRole",
+        "EMRClusterinstanceProfileRole",
+        "EMRClusterinstanceProfile"
+      ],
+      "Properties": {
+        "Applications": [
+          {
+            "Name": "Ganglia"
+          },
+          {
+            "Name": "Spark"
+          },
+          {
+            "Name": "Hive"
+          },
+          {
+            "Name": "Tez"
+          },
+          {
+            "Name": "Zeppelin"
+          },
+          {
+            "Name": "Oozie"
+          },
+          {
+            "Name": "Hue"
+          },
+          {
+            "Name": "Presto"
+          },
+          {
+            "Name": "Livy"
+          }
+        ],
+        "AutoScalingRole": "EMR_AutoScaling_DefaultRole",
+        "Configurations": [
+          {
+            "Classification": "hive-site",
+            "ConfigurationProperties": {
+              "hive.metastore.client.factory.class": "com.amazonaws.glue.catalog.metastore.AWSGlueDataCatalogHiveClientFactory"
+            }
+          },
+          {
+            "Classification": "spark",
+            "ConfigurationProperties": {
+              "maximizeResourceAllocation": "true"
+            }
+          },
+          {
+            "Classification": "presto-connector-hive",
+            "ConfigurationProperties": {
+              "hive.metastore.glue.datacatalog.enabled": "true"
+            }
+          },
+          {
+            "Classification": "spark-hive-site",
+            "ConfigurationProperties": {
+              "hive.metastore.client.factory.class": "com.amazonaws.glue.catalog.metastore.AWSGlueDataCatalogHiveClientFactory"
+            }
+          }
+        ],
+        "EbsRootVolumeSize": 100,
+        "Instances": {
+          "AdditionalMasterSecurityGroups": [
+            "sg-111"
+          ],
+          "AdditionalSlaveSecurityGroups": [
+            "sg-112"
+          ],
+          "CoreInstanceGroup": {
+            "EbsConfiguration": {
+              "EbsBlockDeviceConfigs": [
+                {
+                  "VolumeSpecification": {
+                    "SizeInGB": "320",
+                    "VolumeType": "gp2"
+                  },
+                  "VolumesPerInstance": "1"
+                }
+              ],
+              "EbsOptimized": "true"
+            },
+            "InstanceCount": 2,
+            "InstanceType": "r4.4xlarge",
+            "Market": "ON_DEMAND",
+            "Name": "coreNinja"
+          },
+          "MasterInstanceGroup": {
+            "EbsConfiguration": {
+              "EbsBlockDeviceConfigs": [
+                {
+                  "VolumeSpecification": {
+                    "SizeInGB": "320",
+                    "VolumeType": "gp2"
+                  },
+                  "VolumesPerInstance": "1"
+                }
+              ],
+              "EbsOptimized": "true"
+            },
+            "InstanceCount": 1,
+            "InstanceType": "r4.4xlarge",
+            "Market": "ON_DEMAND",
+            "Name": "masterNinja"
+          },
+          "Ec2KeyName": {
+            "Ref": "KeyName"
+          },
+          "Ec2SubnetId": {
+            "Ref": "SubnetID"
+          },
+          "TerminationProtected": false
+        },
+        "JobFlowRole": {
+          "Ref": "EMRClusterinstanceProfile"
+        },
+        "LogUri": {
+          "Ref": "LogUri"
+        },
+        "Name": {
+          "Ref": "EMRClusterName"
+        },
+        "ReleaseLabel": {
+          "Ref": "ReleaseLabel"
+        },
+        "ServiceRole": {
+          "Ref": "EMRClusterServiceRole"
+        },
+        "VisibleToAllUsers": true
+      },
+      "Type": "AWS::EMR::Cluster"
+    },
+    "EMRClusterServiceRole": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "sts:AssumeRole"
+              ],
+              "Effect": "Allow",
+              "Principal": {
+                "Service": [
+                  "elasticmapreduce.amazonaws.com"
+                ]
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "ManagedPolicyArns": [
+          "arn:aws:iam::aws:policy/service-role/AmazonElasticMapReduceRole"
+        ],
+        "Path": "/",
+        "Policies": [
+          {
+            "PolicyName": "s3fullaccess",
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Action": "s3:*",
+                  "Resource": "*"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "Type": "AWS::IAM::Role"
+    },
+    "EMRClusterinstanceProfile": {
+      "Properties": {
+        "Path": "/",
+        "Roles": [
+          {
+            "Ref": "EMRClusterinstanceProfileRole"
+          }
+        ]
+      },
+      "Type": "AWS::IAM::InstanceProfile"
+    },
+    "EMRClusterinstanceProfileRole": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "sts:AssumeRole"
+              ],
+              "Effect": "Allow",
+              "Principal": {
+                "Service": [
+                  "ec2.amazonaws.com"
+                ]
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "ManagedPolicyArns": [
+          "arn:aws:iam::aws:policy/service-role/AmazonElasticMapReduceforEC2Role"
+        ],
+        "Path": "/"
+      },
+      "Type": "AWS::IAM::Role"
+    },
+    "TestStep": {
+      "Type": "AWS::EMR::Step",
+      "Properties": {
+        "ActionOnFailure": "CONTINUE",
+        "HadoopJarStep": {
+          "Args": [
+            "s3://byoo-emr-bootstrap/bootstrap-emr.sh"
+          ],
+          "Jar": "s3://eu-west-1.elasticmapreduce/libs/script-runner/script-runner.jar"
+        },
+        "Name": "CustomBootstrap",
+        "JobFlowId": {
+          "Ref": "EMRCluster"
+        }
+      }
+    },
+    "myDNSRecord": {
+      "Type": "AWS::Route53::RecordSet",
+      "DependsOn": [
+        "EMRCluster"
+      ],
+      "Properties": {
+        "HostedZoneName": "myDomain.",
+        "Comment": "DNS name for my instance. for emr. cloud formation",
+        "Name": "mydomain.com",
+        "Type": "CNAME",
+        "TTL": "600",
+        "ResourceRecords": [
+          {
+            "Fn::GetAtt": [
+              "EMRCluster",
+              "MasterPublicDNS"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
