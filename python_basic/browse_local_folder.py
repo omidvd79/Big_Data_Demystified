@@ -1,7 +1,7 @@
                                                
 from os import listdir
 from os.path import isfile, join
-mypath='/tmp/imedis/'
+mypath='/tmp/myFolder/'
 def iterate_folder(mypath):
         #print ("in path: "+mypath)
         onlyFiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
