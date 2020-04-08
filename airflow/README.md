@@ -18,23 +18,21 @@ Big Data Demystified meetup and blog examples. For related Blogs for the commmit
 
 [How to connect GCP Composer cloud SQL database ? and migrate data to BQ? Is it possible? What are my options?](https://big-data-demystified.ninja/2019/10/16/how-to-connect-gcp-composer-cloud-sql-database-and-migrate-data-to-bq-is-it-possible-what-are-my-options/)
 
-https://big-data-demystified.ninja/2019/10/20/airflow-demystified-everything-you-need-to-know-about-diy-localexecutor-airflow-cluster-backed-by-mysql/
+[Airflow Demystified | Airflow examples of jobs | GCP Composer and FAQ’s](https://big-data-demystified.ninja/2019/02/18/air-flow-example-of-job-data-composer-gcp/)
 
-https://big-data-demystified.ninja/2019/02/18/air-flow-example-of-job-data-composer-gcp/
+[How to convert colabs notebook into python and scheduling it in Apache Airflow?](https://big-data-demystified.ninja/2020/02/02/how-to-convert-colabs-notebook-into-python-and-scheduling-it-in-apache-airflow/)
 
-https://big-data-demystified.ninja/2020/02/02/how-to-convert-colabs-notebook-into-python-and-scheduling-it-in-apache-airflow/
+[Data Engineering Use Cases: Airflow, Cost reduction@ BQ ML](https://big-data-demystified.ninja/2020/02/09/data-engineering-use-cases-airflow-cost-reduction-bq-ml/)
 
-https://big-data-demystified.ninja/2020/02/09/data-engineering-use-cases-airflow-cost-reduction-bq-ml/
+[Why the author of “We’re All Using Airflow Wrong and How to Fix It” needs to attend my meetup!](https://big-data-demystified.ninja/2020/02/11/why-the-author-of-were-all-using-airflow-wrong-and-how-to-fix-it-needs-to-attend-my-meetup/)
 
-https://big-data-demystified.ninja/2020/02/11/why-the-author-of-were-all-using-airflow-wrong-and-how-to-fix-it-needs-to-attend-my-meetup/
+[Airflow Use Case: Improving success rate of API calls](https://big-data-demystified.ninja/2020/04/03/airflow-use-case-improving-success-rate-of-api-calls/)
 
-https://big-data-demystified.ninja/2020/04/03/airflow-use-case-improving-success-rate-of-api-calls/
+[Appsflyer Data Locker Data Pipeline use case – How to copy from AWS S3 bucket to GCS bucket ?](https://big-data-demystified.ninja/2020/03/31/apps-flyer-data-locker-data-pipeline-use-case-how-to-copy-from-aws-s3-bucket-to-gcs-bucket/)
 
-https://big-data-demystified.ninja/2020/03/31/apps-flyer-data-locker-data-pipeline-use-case-how-to-copy-from-aws-s3-bucket-to-gcs-bucket/
+[Google Search Console API Python Demystified](https://big-data-demystified.ninja/2020/03/22/google-search-console-api-python-demystified/)
 
-https://big-data-demystified.ninja/2020/03/22/google-search-console-api-python-demystified/
-
-https://big-data-demystified.ninja/2020/02/29/airflow-dynamic-operators-used-in-google-ad-manager-api-data-pipeline-gam-demystified/
+[Airflow Dynamic Operators used in google ad manager API data pipeline | GAM demystified](https://big-data-demystified.ninja/2020/02/29/airflow-dynamic-operators-used-in-google-ad-manager-api-data-pipeline-gam-demystified/)
 
 https://big-data-demystified.ninja/2020/02/27/how-to-connect-to-google-ad-manager-via-python-api/
 
@@ -42,6 +40,8 @@ https://big-data-demystified.ninja/2020/02/27/how-to-connect-to-google-ad-manage
 https://big-data-demystified.ninja/2019/12/08/airflow-demystified-big-data-demystified/
 
 https://big-data-demystified.ninja/2018/08/15/airflow-installation-manual-and-workflow-example/
+
+https://big-data-demystified.ninja/2019/10/20/airflow-demystified-everything-you-need-to-know-about-diy-localexecutor-airflow-cluster-backed-by-mysql/
 
 https://big-data-demystified.ninja/2020/03/23/airflow-performance-tuning-in-5-min/
 
