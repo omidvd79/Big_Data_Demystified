@@ -1,7 +1,7 @@
 # Big Data Demystified
 Big Data Demystified meetup and blog examples. For related Blogs for the commmited airflow blogs and code examples:https://big-data-demystified.ninja/airflow-blogs/
 
-# Airflow Usecases Demystified:
+# Airflow Use cases Demystified:
 [Similarweb API data pipeline| Airflow & Cost reduction]( https://big-data-demystified.ninja/2020/01/07/similar-web-api-data-pipeline-airflow-cost-reduction/)
 
 [DFP Data Transfer Files Use Case | BigQuery 93% Cost Reduction demystified](https://big-data-demystified.ninja/2019/11/27/bigquery-sharded-table-loading-via-airflow-dynamic-workflow-template-fields-and-loop-dfp-data-transfer-files-use-case/)
