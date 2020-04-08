@@ -9,7 +9,7 @@ def iterate_folder(mypath):
                 
         for folder in onlyFolders:
                 #print join(mypath,folder)
-                itterate_folder(join(mypath,folder))
+                iterate_folder(join(mypath,folder))
         for file in onlyFiles:
                 print join(mypath,file)
 iterate_folder(mypath)
