@@ -1,11 +1,7 @@
 # Big Data Demystified
-Big Data Demystified meetup and blog examples
+Big Data Demystified meetup and blog examples. For related Blogs for the commmited airflow blogs and code examples:https://big-data-demystified.ninja/airflow-blogs/
 
-
-
-For related Blogs for the commmited airflow blogs and code examples:https://big-data-demystified.ninja/airflow-blogs/
-
-Airflow Usecases:
+# Airflow Usecases Demystified:
 https://big-data-demystified.ninja/2020/01/07/similar-web-api-data-pipeline-airflow-cost-reduction/
 
 https://big-data-demystified.ninja/2019/11/27/bigquery-sharded-table-loading-via-airflow-dynamic-workflow-template-fields-and-loop-dfp-data-transfer-files-use-case/
@@ -42,7 +38,7 @@ https://big-data-demystified.ninja/2020/02/29/airflow-dynamic-operators-used-in-
 
 https://big-data-demystified.ninja/2020/02/27/how-to-connect-to-google-ad-manager-via-python-api/
 
-Airflow setup:
+# Airflow setup Demystified:
 https://big-data-demystified.ninja/2019/12/08/airflow-demystified-big-data-demystified/
 
 https://big-data-demystified.ninja/2018/08/15/airflow-installation-manual-and-workflow-example/
@@ -59,13 +55,13 @@ https://big-data-demystified.ninja/2019/10/03/airflow-mysql-integration-how-to/
 
 https://big-data-demystified.ninja/2019/10/03/airflow-and-slack-integration/
 
-Meetups:
+# Meetups:
 
 https://www.meetup.com/Big-Data-Demystified
 
 https://www.meetup.com/AWS-Big-Data-Demystified/
 
-You tube channels:
+# You tube channels:
 
 https://www.youtube.com/channel/UCMSdNB0fGmX5dXI7S7Y_LFA?view_as=subscriber
 
