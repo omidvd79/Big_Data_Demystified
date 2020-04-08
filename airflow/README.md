@@ -3,8 +3,7 @@ Big Data Demystified meetup and blog examples
 
 
 
-
-For related Blogs for the commmited airflow exmpales::
+For related Blogs for the commmited airflow exmpales:
 
 https://big-data-demystified.ninja/airflow-blogs/
 
