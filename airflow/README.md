@@ -22,8 +22,6 @@ Big Data Demystified meetup and blog examples. For related Blogs for the commmit
 
 [How to convert colabs notebook into python and scheduling it in Apache Airflow?](https://big-data-demystified.ninja/2020/02/02/how-to-convert-colabs-notebook-into-python-and-scheduling-it-in-apache-airflow/)
 
-[Data Engineering Use Cases: Airflow, Cost reduction@ BQ ML](https://big-data-demystified.ninja/2020/02/09/data-engineering-use-cases-airflow-cost-reduction-bq-ml/)
-
 [Why the author of “We’re All Using Airflow Wrong and How to Fix It” needs to attend my meetup!](https://big-data-demystified.ninja/2020/02/11/why-the-author-of-were-all-using-airflow-wrong-and-how-to-fix-it-needs-to-attend-my-meetup/)
 
 [Airflow Use Case: Improving success rate of API calls](https://big-data-demystified.ninja/2020/04/03/airflow-use-case-improving-success-rate-of-api-calls/)
@@ -36,9 +34,7 @@ Big Data Demystified meetup and blog examples. For related Blogs for the commmit
 
 [How to connect to Google Ad manager via python API | GAM demystified](https://big-data-demystified.ninja/2020/02/27/how-to-connect-to-google-ad-manager-via-python-api/)
 
-# Airflow setup Demystified:
-
-[Airflow Demystified | Big Data Demystified](https://big-data-demystified.ninja/2019/12/08/airflow-demystified-big-data-demystified/)
+# Airflow setup Demystified [Technical How to's blogs to install Airflow]:
 
 [Airflow SequentialExecutor Installation manual and basic commands](https://big-data-demystified.ninja/2018/08/15/airflow-installation-manual-and-workflow-example/)
 
@@ -54,7 +50,11 @@ Big Data Demystified meetup and blog examples. For related Blogs for the commmit
 
 [Airflow and Slack Integration](https://big-data-demystified.ninja/2019/10/03/airflow-and-slack-integration/)
 
-# Meetups:
+# Meetups - Video and Slides [ A bout airflow use cases ]:
+
+[Airflow Demystified | Big Data Demystified](https://big-data-demystified.ninja/2019/12/08/airflow-demystified-big-data-demystified/)
+
+[Data Engineering Use Cases: Airflow, Cost reduction@ BQ ML](https://big-data-demystified.ninja/2020/02/09/data-engineering-use-cases-airflow-cost-reduction-bq-ml/)
 
 https://www.meetup.com/Big-Data-Demystified
 
