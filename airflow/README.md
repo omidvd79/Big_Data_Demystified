@@ -6,7 +6,7 @@ Big Data Demystified meetup and blog examples. For related Blogs for the commmit
 
 [DFP Data Transfer Files Use Case | BigQuery 93% Cost Reduction demystified](https://big-data-demystified.ninja/2019/11/27/bigquery-sharded-table-loading-via-airflow-dynamic-workflow-template-fields-and-loop-dfp-data-transfer-files-use-case/)
 
-[Airflow file sensor example | Airflow Demystified] (https://big-data-demystified.ninja/2019/11/14/airflow-file-sensor-example-airflow-demystified/)
+[Airflow file sensor example | Airflow Demystified](https://big-data-demystified.ninja/2019/11/14/airflow-file-sensor-example-airflow-demystified/)
 
 [AttributeError: ‘NoneType’ object has no attribute ‘create_dagrun’ | Airflow Demystified](https://big-data-demystified.ninja/2019/11/14/attributeerror-nonetype-object-has-no-attribute-create_dagrun-airflow-demystified/)
 
