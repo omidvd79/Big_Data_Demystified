@@ -4,19 +4,19 @@ Big Data Demystified meetup and blog examples. For related Blogs for the commmit
 # Airflow Usecases Demystified:
 [Similarweb API data pipeline| Airflow & Cost reduction]( https://big-data-demystified.ninja/2020/01/07/similar-web-api-data-pipeline-airflow-cost-reduction/)
 
-https://big-data-demystified.ninja/2019/11/27/bigquery-sharded-table-loading-via-airflow-dynamic-workflow-template-fields-and-loop-dfp-data-transfer-files-use-case/
+[DFP Data Transfer Files Use Case | BigQuery 93% Cost Reduction demystified](https://big-data-demystified.ninja/2019/11/27/bigquery-sharded-table-loading-via-airflow-dynamic-workflow-template-fields-and-loop-dfp-data-transfer-files-use-case/)
 
-https://big-data-demystified.ninja/2019/11/14/airflow-file-sensor-example-airflow-demystified/
+[Airflow file sensor example | Airflow Demystified] (https://big-data-demystified.ninja/2019/11/14/airflow-file-sensor-example-airflow-demystified/)
 
-https://big-data-demystified.ninja/2019/11/14/attributeerror-nonetype-object-has-no-attribute-create_dagrun-airflow-demystified/
+[AttributeError: ‘NoneType’ object has no attribute ‘create_dagrun’ | Airflow Demystified](https://big-data-demystified.ninja/2019/11/14/attributeerror-nonetype-object-has-no-attribute-create_dagrun-airflow-demystified/)
 
-https://big-data-demystified.ninja/2019/11/24/gcp-dataproc-demystified-bq-vs-dataproc-cost-reduction-use-case/
+[GCP Dataproc Demystified | BQ VS Dataproc Cost reduction use case](https://big-data-demystified.ninja/2019/11/24/gcp-dataproc-demystified-bq-vs-dataproc-cost-reduction-use-case/)
 
-https://big-data-demystified.ninja/2019/11/04/how-to-ssh-to-a-remote-gcp-machine-and-run-a-command-via-airflow/
+[How to ssh to a remote GCP machine and run a command via Airflow ?](https://big-data-demystified.ninja/2019/11/04/how-to-ssh-to-a-remote-gcp-machine-and-run-a-command-via-airflow/)
 
-https://big-data-demystified.ninja/2019/11/03/how-to-debug-bigquery-query-failure-in-airflow-dag/
+[How to debug BigQuery query failure in Airflow DAG?](https://big-data-demystified.ninja/2019/11/03/how-to-debug-bigquery-query-failure-in-airflow-dag/)
 
-https://big-data-demystified.ninja/2019/10/16/how-to-connect-gcp-composer-cloud-sql-database-and-migrate-data-to-bq-is-it-possible-what-are-my-options/
+[How to connect GCP Composer cloud SQL database ? and migrate data to BQ? Is it possible? What are my options?](https://big-data-demystified.ninja/2019/10/16/how-to-connect-gcp-composer-cloud-sql-database-and-migrate-data-to-bq-is-it-possible-what-are-my-options/)
 
 https://big-data-demystified.ninja/2019/10/20/airflow-demystified-everything-you-need-to-know-about-diy-localexecutor-airflow-cluster-backed-by-mysql/
 
