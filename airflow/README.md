@@ -46,8 +46,6 @@ Big Data Demystified meetup and blog examples. For related Blogs for the commmit
 
 [Airflow Performance tuning in 5 min](https://big-data-demystified.ninja/2020/03/23/airflow-performance-tuning-in-5-min/)
 
-[Airflow Demystified | Everything you need to know about installing a DIY LocalExecutor Airflow cluster backed by MySQL Cloud SQL](https://big-data-demystified.ninja/2019/10/20/airflow-demystified-everything-you-need-to-know-about-diy-localexecutor-airflow-cluster-backed-by-mysql/)
-
 [mounting GCS as FUSE for Airflow](https://big-data-demystified.ninja/2019/10/15/mounting-gcs-as-fuse-for-airflow/)
 
 [Airflow – setup of SSL Certificate – HTTPS example](https://big-data-demystified.ninja/2019/10/07/airflow-setup-of-ssl-certificate-https-example/)
