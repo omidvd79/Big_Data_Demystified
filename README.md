@@ -1,6 +1,18 @@
 # Big Data Demystified
-Big Data Demystified meetup and blog examples
-Website:
+Big Data Demystified is a meetup and an effort to share my personal knowledge and expirience in big data.  
+
+# About the Author
+I’m Omid Vahdaty, a Big Data Ninja and a meetup organizer , a black belt in Taekwondo and a master in skydiving.
+I’m the founder and CTO of Jutomate,a company that  specializes  in end to end data solutions.
+
+I have over 20 years of career experience in helping building systems from the ground up, In startups at all stages from seed level to exit  (SQream. Jajah, etc ) and  in big media organizations (Walla News. Investing.com, etc).
+
+I specialize in Big Data Architecture, Product innovation & strategic engineering thinking, while designing the systems in a start up environment, meaning – agile, cost effective and fast learning curve.I enjoy helping and donating my time to good causes such as The Israeli Association for CMV Pregnancy and the Celiac rights organization.
+
+I hope You’ll find the knowledge on the below useful.
+
+
+#Our Big Data Demystified Website:
 [GCP BigQuery Blogs](https://big-data-demystified.ninja/bigquery-blogs/)
 
 # GCP BigQuery meetups:
@@ -9,7 +21,7 @@ Website:
 
 [80% Cost Reduction in Google Cloud BigQuery | Tips and Tricks | Big Query Demystified | GCP Big Data Demystified #2](https://big-data-demystified.ninja/2019/10/27/80-cost-reduction-in-google-cloud-bigquery-tips-and-tricks-big-query-demystified/)
 
-# GCP BigQuery Cost reduction Blogs:
+# GCP BigQuery cost reduction Blogs:
 [what is the cheapest ways to parse GA_sessions at big query? What is the fastest way to parse GA_sessions at big query? What is the simplest way to parse GA_sessions at big query?](https://big-data-demystified.ninja/2019/05/19/what-is-the-cheapest-ways-to-parse-ga-sessions-at-big-query-what-is-the-fastest-way-to-parse-ga-sessions-at-big-query-what-is-the-simplest-way-to-parse-ga-sessions-at-big-query/)
 
 [DFP Data Transfer Files Use Case | BigQuery 93% Cost Reduction demystified](https://big-data-demystified.ninja/2019/11/27/bigquery-sharded-table-loading-via-airflow-dynamic-workflow-template-fields-and-loop-dfp-data-transfer-files-use-case/)
@@ -24,7 +36,7 @@ Website:
 [Parsing the last 4 days of google analytics table GA_sessions in google BigQuery](https://big-data-demystified.ninja/2019/05/05/parsing-the-last-4-days-of-qa-sessions-in-google-bigquery/)
 
 
-# GCP Big Query How to blogs:
+# GCP BigQuery technical "How to" blogs:
 [How to export data from Google Big Query into AWS S3 + EMR hive or AWS Athena](https://big-data-demystified.ninja/2018/05/27/how-to-export-data-from-google-big-query-into-aws-s3-emr-hive/)
 
 [K Means Via BQ ML Demystified](https://big-data-demystified.ninja/2019/12/18/k-means-via-bq-ml-demystified/)
