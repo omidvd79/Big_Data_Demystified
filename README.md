@@ -42,7 +42,7 @@ Website:
 
 [When to use BigQuery? When not to use BigQuery?](https://big-data-demystified.ninja/2020/04/06/when-to-use-bigquery-when-not-to-use-bigquery/)
 
-# Other Meetups:
+# Other Big Data Meetups:
 
 https://www.meetup.com/Big-Data-Demystified
 
