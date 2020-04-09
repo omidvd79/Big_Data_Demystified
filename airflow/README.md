@@ -63,7 +63,7 @@ examples:https://big-data-demystified.ninja/airflow-blogs/
 
 [Airflow and Slack Integration](https://big-data-demystified.ninja/2019/10/03/airflow-and-slack-integration/)
 
-# Meetups - Video and Slides [ About airflow use cases ]:
+# Meetups - Video and Slides [ Airflow use cases ]:
 
 [Airflow Demystified | Big Data Demystified](https://big-data-demystified.ninja/2019/12/08/airflow-demystified-big-data-demystified/)
 
