@@ -1,7 +1,7 @@
 # Big Data Demystified
 Big Data Demystified is a meetup and an effort to share my personal knowledge and expirience in big data.  
 
-# About the Author
+# About the author
 I’m Omid Vahdaty, a Big Data Ninja and a meetup organizer , a black belt in Taekwondo and a master in skydiving.
 I’m the founder and CTO of Jutomate,a company that  specializes  in end to end data solutions.
 
