@@ -18,7 +18,7 @@ I hope You’ll find the knowledge on the below useful. Please feel free to [con
 # AWS cost reduction blogs
 [16 Tips to reduce costs on AWS SQL Athena](https://big-data-demystified.ninja/2018/06/03/cost-reduction-on-athena/)
 
-# AWS Architecture meetups | Spoken language - English:
+# AWS architecture meetups | Spoken language - English:
 [AWS Big Data Demystified #1.2 | Big Data Architecture Lessons Learned](https://big-data-demystified.ninja/2019/04/02/aws-big-data-demystified-1-2-big-data-architecture-lessons-learned/) 
 [AWS Big Data Demystified #4 |Data Governance Demystified - Security, Network and Data access management](https://big-data-demystified.ninja/2018/08/10/aws-big-data-demystified-4-data-governance-demystified-security-network-and-data-access-management/)
 [Automate all your EMR related activities| Eitan Sela, System Architect](https://big-data-demystified.ninja/2018/09/10/aws-big-data-demystified-5-automate-all-your-emr-related-activities-eitan-sela-system-architect/)
