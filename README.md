@@ -21,7 +21,7 @@ I hope You’ll find the knowledge on the below useful.
 
 [80% Cost Reduction in Google Cloud BigQuery | Tips and Tricks | Big Query Demystified | GCP Big Data Demystified #2](https://big-data-demystified.ninja/2019/10/27/80-cost-reduction-in-google-cloud-bigquery-tips-and-tricks-big-query-demystified/)
 
-# GCP BigQuery cost reduction Blogs:
+# GCP BigQuery cost reduction blogs:
 [what is the cheapest ways to parse GA_sessions at big query? What is the fastest way to parse GA_sessions at big query? What is the simplest way to parse GA_sessions at big query?](https://big-data-demystified.ninja/2019/05/19/what-is-the-cheapest-ways-to-parse-ga-sessions-at-big-query-what-is-the-fastest-way-to-parse-ga-sessions-at-big-query-what-is-the-simplest-way-to-parse-ga-sessions-at-big-query/)
 
 [DFP Data Transfer Files Use Case | BigQuery 93% Cost Reduction demystified](https://big-data-demystified.ninja/2019/11/27/bigquery-sharded-table-loading-via-airflow-dynamic-workflow-template-fields-and-loop-dfp-data-transfer-files-use-case/)
