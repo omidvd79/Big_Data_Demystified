@@ -1,7 +1,20 @@
 # Big Data Demystified
-Big Data Demystified meetup and blog examples. For related Blogs for the commmited airflow blogs and code examples:https://big-data-demystified.ninja/airflow-blogs/
+Big Data Demystified is a meetup and an effort to share my personal knowledge and expirience in big data.  
 
-# Airflow Use cases Demystified:
+# About the Author
+I’m Omid Vahdaty, a Big Data Ninja and a meetup organizer , a black belt in Taekwondo and a master in skydiving.
+I’m the founder and CTO of Jutomate,a company that  specializes  in end to end data solutions.
+
+I have over 20 years of career experience in helping building systems from the ground up, In startups at all stages from seed level to exit  (SQream. Jajah, etc ) and  in big media organizations (Walla News. Investing.com, etc).
+
+I specialize in Big Data Architecture, Product innovation & strategic engineering thinking, while designing the systems in a start up environment, meaning – agile, cost effective and fast learning curve.I enjoy helping and donating my time to good causes such as The Israeli Association for CMV Pregnancy and the Celiac rights organization.
+
+I hope You’ll find the knowledge on the below useful. Please feel free to [contact me via linkedin](https://www.linkedin.com/in/omid-vahdaty/)
+
+# Airflow Blogs - complete list 
+examples:https://big-data-demystified.ninja/airflow-blogs/
+
+# Airflow use cases Demystified:
 [Similarweb API data pipeline| Airflow & Cost reduction]( https://big-data-demystified.ninja/2020/01/07/similar-web-api-data-pipeline-airflow-cost-reduction/)
 
 [DFP Data Transfer Files Use Case | BigQuery 93% Cost Reduction demystified](https://big-data-demystified.ninja/2019/11/27/bigquery-sharded-table-loading-via-airflow-dynamic-workflow-template-fields-and-loop-dfp-data-transfer-files-use-case/)
@@ -56,6 +69,7 @@ Big Data Demystified meetup and blog examples. For related Blogs for the commmit
 
 [Data Engineering Use Cases: Airflow, Cost reduction@ BQ ML](https://big-data-demystified.ninja/2020/02/09/data-engineering-use-cases-airflow-cost-reduction-bq-ml/)
 
+# our Big Data Meetups:
 https://www.meetup.com/Big-Data-Demystified
 
 https://www.meetup.com/AWS-Big-Data-Demystified/
