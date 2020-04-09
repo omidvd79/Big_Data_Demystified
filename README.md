@@ -12,7 +12,7 @@ I specialize in Big Data Architecture, Product innovation & strategic engineerin
 I hope You’ll find the knowledge on the below useful.
 
 
-#Our Big Data Demystified Website:
+# Our Big Data Demystified Website:
 [GCP BigQuery Blogs](https://big-data-demystified.ninja/bigquery-blogs/)
 
 # GCP BigQuery meetups:
