@@ -9,7 +9,7 @@ I have over 20 years of career experience in helping building systems from the g
 
 I specialize in Big Data Architecture, Product innovation & strategic engineering thinking, while designing the systems in a start up environment, meaning – agile, cost effective and fast learning curve.I enjoy helping and donating my time to good causes such as The Israeli Association for CMV Pregnancy and the Celiac rights organization.
 
-I hope You’ll find the knowledge on the below useful.
+I hope You’ll find the knowledge on the below useful. Please feel free to [contact me via linkedin](https://www.linkedin.com/in/omid-vahdaty/)
 
 
 # Our Big Data Demystified Website:
