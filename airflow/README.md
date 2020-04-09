@@ -34,7 +34,7 @@ Big Data Demystified meetup and blog examples. For related Blogs for the commmit
 
 [How to connect to Google Ad manager via python API | GAM demystified](https://big-data-demystified.ninja/2020/02/27/how-to-connect-to-google-ad-manager-via-python-api/)
 
-# Airflow setup Demystified [Technical How to's blogs to install Airflow]:
+# Airflow setup demystified [technical "how to" blogs to install Airflow]:
 
 [Airflow SequentialExecutor Installation manual and basic commands](https://big-data-demystified.ninja/2018/08/15/airflow-installation-manual-and-workflow-example/)
 
