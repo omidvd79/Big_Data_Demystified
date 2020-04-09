@@ -14,7 +14,9 @@ I hope You’ll find the knowledge on the below useful. Please feel free to [con
 
 # Our Big Data Demystified Website:
 [GCP BigQuery Blogs](https://big-data-demystified.ninja/bigquery-blogs/)
+
 [AWS Blogs](https://big-data-demystified.ninja/aws-blogs/)
+
 [Airflow blogs](https://big-data-demystified.ninja/airflow-blogs/)
 
 # Data Engineering usecases meetups | Spoken language - English:
@@ -22,8 +24,11 @@ I hope You’ll find the knowledge on the below useful. Please feel free to [con
 [GCP Big Data Demystified #1 | Investing.com Big Data Journey](https://big-data-demystified.ninja/2019/01/28/gcp-big-data-demystified-1-investing-com-big-data-journey/)
 
 [80% Cost Reduction in Google Cloud BigQuery | Tips and Tricks | Big Query Demystified | GCP Big Data Demystified #2](https://big-data-demystified.ninja/2019/10/27/80-cost-reduction-in-google-cloud-bigquery-tips-and-tricks-big-query-demystified/)
+
 [AWS Big Data Demystified #1.2 | Big Data Architecture Lessons Learned](https://big-data-demystified.ninja/2019/04/02/aws-big-data-demystified-1-2-big-data-architecture-lessons-learned/) 
+
 [AWS Big Data Demystified #4 |Data Governance Demystified - Security, Network and Data access management](https://big-data-demystified.ninja/2018/08/10/aws-big-data-demystified-4-data-governance-demystified-security-network-and-data-access-management/)
+
 
 
 # Big Data Mega blogs - Big Data Demystified in 200KM/h
