@@ -31,7 +31,7 @@ I hope You’ll find the knowledge on the below useful. Please feel free to [con
 
 
 
-# Big Data Mega blogs - Big Data Demystified in 200KM/h
+# Big Data mega blogs - Big Data Demystified in 200KM/h
 [Google BigQuery Demystified](https://big-data-demystified.ninja/2019/07/21/google-bigquery-demystified/)
 [AWS Demystified – Comprehensive training program suggestion for newbies in 200KM/h](https://big-data-demystified.ninja/2020/04/03/aws-demystified-comprehensive-training-program-suggestion-for-newbies-in-200km-h/)
 
