@@ -15,7 +15,7 @@ args = {
 dag = DAG(
     dag_id='bash_log_clean_up',
     default_args=args,
-    schedule_interval='00 03 1 * 1'
+    schedule_interval='00 03 * * 0'
 )
 
 user = 'omid'
