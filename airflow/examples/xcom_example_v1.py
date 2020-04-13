@@ -48,7 +48,7 @@ def puller(**kwargs):
 
 
 push1 = PythonOperator(
-    task_id='push',provide_context=True, #provide cotext is for getting the TI (task instance ) parameters
+    task_id='push',provide_context=True, #provide context is for getting the TI (task instance ) parameters
     dag=dag,
     python_callable=push,
 )
@@ -60,7 +60,7 @@ push2 = PythonOperator(
 )
 
 pull = PythonOperator(
-    task_id='puller',provide_context=True,#provide cotext is for getting the TI (task instance ) parameters
+    task_id='puller',provide_context=True,#provide context is for getting the TI (task instance ) parameters
     dag=dag,
     python_callable=puller,
 )
