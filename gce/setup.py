@@ -3,6 +3,7 @@ sudo apt update
 sudo apt install -y python-pip
 sudo apt install -y python3-pip
 sudo apt-get install -y git
+sudo apt install -y default-mysql-client
 
 # pip packges:
 pip install google-cloud google-cloud-storage
