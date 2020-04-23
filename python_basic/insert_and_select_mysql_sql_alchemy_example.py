@@ -1,7 +1,7 @@
 import sqlalchemy as db
 engine = db.create_engine('mysql://airflow:airflow@1.2.3.4:3306/airflow')
 
-def get_study_from_airflow_db(my_name):
+def get_name_from_airflow_db(my_name):
 	connection = engine.connect()
 	metadata = db.MetaData()
 	study_table = db.Table('my_table', metadata, autoload=True, autoload_with=engine)
@@ -22,7 +22,7 @@ def get_study_from_airflow_db(my_name):
 	[value for value, in ResultSet]
 	print (value)
 
-def insert_new_study_id(my_name):
+def insert_new_name(my_name):
 	## tyring now to insert data
 	try:
 		conn = engine.connect()
@@ -36,6 +36,6 @@ def insert_new_study_id(my_name):
 		return ("not sababa")
 
 
-new_study="MyLatestSTR"
-insert_new_study_id(my_name)
-get_study_from_airflow_db(my_name)
+new_name="MyLatestSTR"
+insert_new_name(my_name)
+get_name_from_airflow_db(my_name)
