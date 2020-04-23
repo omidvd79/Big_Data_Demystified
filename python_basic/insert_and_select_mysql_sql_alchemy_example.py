@@ -1,5 +1,5 @@
 import sqlalchemy as db
-engine = db.create_engine('mysql://airflow:airflow@35.224.15.188:3306/airflow')
+engine = db.create_engine('mysql://airflow:airflow@1.2.3.4:3306/airflow')
 
 def get_study_from_airflow_db(study_name):
 	connection = engine.connect()
