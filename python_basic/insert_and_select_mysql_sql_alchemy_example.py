@@ -1,7 +1,7 @@
 import sqlalchemy as db
 engine = db.create_engine('mysql://airflow:airflow@1.2.3.4:3306/airflow')
 
-def get_study_from_airflow_db(study_name):
+def get_study_from_airflow_db(my_name):
 	connection = engine.connect()
 	metadata = db.MetaData()
 	study_table = db.Table('my_table', metadata, autoload=True, autoload_with=engine)
