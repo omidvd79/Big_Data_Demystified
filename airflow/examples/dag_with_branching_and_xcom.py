@@ -105,7 +105,7 @@ def is_contidional(input):
 		
 
 ##################################
-## conditional fucntion
+## conditional function
 ###################################
 def conditional_func(input):
     if is_contidional(input) == True:  # only Saturday we rest
