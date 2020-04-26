@@ -26,6 +26,7 @@ default_dag_args = {
     # Setting start date as yesterday starts the DAG immediately when it is
     # detected in the Cloud Storage bucket.
     'start_date': yesterday,
+    'owner': 'Jutomate',
     # To email on failure or retry set 'email' arg to your email and enable
     # emailing here.
     'email_on_failure': False,
@@ -55,12 +56,12 @@ end_date = datetime.date.today()
  
 
 
-bash_run_report_remotly_cmd='gcloud beta compute --project gap---all-sites-1245 ssh search-console	--internal-ip --zone us-central1-c --command "sudo -u omid python /home/omid/search_analytics_api_sample.py"'
+bash_run_report_remotly_cmd='gcloud beta compute --project myProject ssh search-console	--internal-ip --zone us-central1-c --command "sudo -u omid python /home/omid/search_analytics_api_sample.py"'
  
 
 
 ### init variables
-bucket_name2='data_lake_ingestion_us'
+bucket_name2='MyBucket'
 
 def get_alphanumeric_task_id(a_string):
 		
@@ -90,7 +91,7 @@ with models.DAG(
 		day_after_single_date=day_after_single_date.strftime("%Y-%m-%d")
 		
 		##notice trigger_rule="all_done"
-		bash_run_report_remotly_cmd='gcloud beta compute --project 	gap---all-sites-1245 ssh search-console --internal-ip --zone us-central1-c --command "sudo -u omid python /home/omid/search_analytics_api_sample.py sc-domain:investing.com '+temp_date+" "+day_after_single_date+'"'
+		bash_run_report_remotly_cmd='gcloud beta compute --project 	myProject ssh search-console --internal-ip --zone us-central1-c --command "sudo -u omid python /home/omid/search_analytics_api_sample.py sc-domain:investing.com '+temp_date+" "+day_after_single_date+'"'
 		run_report_remotly = BashOperator(task_id='run_report_remotly_'+temp_date,retries=2,retry_delay=datetime.timedelta(minutes=15),retry_exponential_backoff=True,max_retry_delay=datetime.timedelta(hours=48),bash_command=bash_run_report_remotly_cmd,trigger_rule="all_done")
 		start.set_downstream(run_report_remotly)
 		run_report_remotly.set_downstream(wait)
