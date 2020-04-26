@@ -47,7 +47,7 @@ default_dag_args = {
 }
 
 ################################
-## push dicom to dicom_dedup   #
+## insert to airflow db   #
 ################################
 def insert(input):
 	
@@ -63,7 +63,7 @@ def insert(input):
 		return ("unable insert ")
 
 ######################################
-## pull dicom_sha_from airflow db   ##
+## select from airflow db  ##
 ######################################
 def is_contidional_select(input):
 	connection = engine.connect()
