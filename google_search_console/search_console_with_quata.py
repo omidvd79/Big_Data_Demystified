@@ -98,7 +98,7 @@ with models.DAG(
 
 	mv_to_data_lake = BashOperator( task_id='mv_to_data_lake',bash_command='gcloud beta compute --project 	gap---all-sites-1245 ssh search-console --internal-ip --zone us-central1-c --command "sudo -u omid gsutil -m mv -r  /tmp/search* gs://data_lake_ingestion_us/search_console/"',dag=dag)
 	
-	load="""bq --location US load --source_format CSV --replace=true --skip_leading_rows 1 --allow_quoted_newlines DATA_LAKE_INGESTION_US.search_console_partition gs://data_lake_ingestion_us/search_console/*"""
+	load="""bq --location US load --source_format CSV --replace=true --skip_leading_rows 1 --allow_quoted_newlines --quote "" DATA_LAKE_INGESTION_US.search_console_partition gs://data_lake_ingestion_us/search_console/*"""
 
 	load_to_data_lake = BashOperator( task_id='load_to_data_lake',bash_command=load,dag=dag)
 	
