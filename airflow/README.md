@@ -15,6 +15,8 @@ I hope You’ll find the knowledge on the below useful. Please feel free to [con
 examples:https://big-data-demystified.ninja/airflow-blogs/
 
 # Airflow use cases Demystified:
+[Airflow XComs example | Airflow Demystified](https://big-data-demystified.ninja/2020/04/15/airflow-xcoms-example-airflow-demystified/)
+
 [Similarweb API data pipeline| Airflow & Cost reduction]( https://big-data-demystified.ninja/2020/01/07/similar-web-api-data-pipeline-airflow-cost-reduction/)
 
 [DFP Data Transfer Files Use Case | BigQuery 93% Cost Reduction demystified](https://big-data-demystified.ninja/2019/11/27/bigquery-sharded-table-loading-via-airflow-dynamic-workflow-template-fields-and-loop-dfp-data-transfer-files-use-case/)
@@ -47,6 +49,8 @@ examples:https://big-data-demystified.ninja/airflow-blogs/
 
 [How to connect to Google Ad manager via python API | GAM demystified](https://big-data-demystified.ninja/2020/02/27/how-to-connect-to-google-ad-manager-via-python-api/)
 
+[Connecting to Facebook API via Airflow}(https://big-data-demystified.ninja/2020/05/19/connecting-to-facebook-api-via-airflow/)
+
 # Airflow setup demystified [technical "how to" blogs to install Airflow]:
 
 [Airflow SequentialExecutor Installation manual and basic commands](https://big-data-demystified.ninja/2018/08/15/airflow-installation-manual-and-workflow-example/)
@@ -62,6 +66,8 @@ examples:https://big-data-demystified.ninja/airflow-blogs/
 [Airflow MySQL Integration – how to?](https://big-data-demystified.ninja/2019/10/03/airflow-mysql-integration-how-to/)
 
 [Airflow and Slack Integration](https://big-data-demystified.ninja/2019/10/03/airflow-and-slack-integration/)
+
+[How to Setup SMTP for Airflow](http://big-data-demystified.ninja/2020/04/26/how-to-setup-smtp-for-airflow/)
 
 # Meetups - Video and Slides [ Airflow use cases ]:
 
