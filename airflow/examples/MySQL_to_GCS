@@ -1,0 +1,23 @@
+from airflow import DAG
+from airflow.contrib.operators.mysql_to_gcs import MySqlToGoogleCloudStorageOperator
+from airflow.operators.bash_operator import BashOperator
+from datetime import datetime, timedelta
+
+default_args = {
+    'owner': 'Jutomate',
+    'start_date': datetime(2020, 01, 01),
+    'depends_on_past': False,
+    'retries': 1,
+    'retry_delay': timedelta(minutes=5),
+}
+
+dag = DAG('mysql_to_gcs', default_args=default_args)
+
+export_PushOpen = MySqlToGoogleCloudStorageOperator(
+    task_id='mySQl_taskID',
+    mysql_conn_id='MySQL_conn_id', # needs to be defined in Airflow-->Admin-->connection
+    google_cloud_storage_conn_id='google_cloud_default',
+    sql='SELECT * FROM table',
+    bucket='myBucket', # dont put a subfolder, only bucket name
+    filename='folder/test_airflow_mysql{}.csv', #the {} is for cases of file being splited.
+    dag=dag)
