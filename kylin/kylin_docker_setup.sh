@@ -1,5 +1,5 @@
-docker pull apachekylin/apache-kylin-standalone:3.1
-docker run -d \
+sudo docker pull apachekylin/apache-kylin-standalone:3.1
+sudo docker run -d \
 -p 7070:7070 \
 -p 8088:8088 \
 -p 50070:50070 \
