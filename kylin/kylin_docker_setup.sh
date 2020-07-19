@@ -9,3 +9,6 @@ sudo docker run -d \
 apachekylin/apache-kylin-standalone:3.1.0
 sudo docker ps
 
+echo "docker exec -it <container_id> bash"
+
+
