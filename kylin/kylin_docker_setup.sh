@@ -7,3 +7,5 @@ sudo docker run -d \
 -p 8042:8042 \
 -p 16010:16010 \
 apachekylin/apache-kylin-standalone:3.1.0
+sudo docker ps
+
