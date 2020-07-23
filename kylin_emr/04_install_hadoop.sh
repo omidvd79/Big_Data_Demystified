@@ -1,5 +1,11 @@
 #install hadoop
-hadoop fs -mkdir s3://jutomate-kylin-hbase/kylin
+
+#if using s3
+#hadoop fs -mkdir s3://jutomate-kylin-hbase/kylin
+
+#if using HDFS
+hadoop fs -mkdir /kylin 
+
 #Remove joda.jar
 mv $HIVE_HOME/lib/jackson-datatype-joda-2.4.6.jar $HIVE_HOME/lib/jackson-datatype-joda-2.4.6.jar.backup
 
