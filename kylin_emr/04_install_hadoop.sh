@@ -21,4 +21,4 @@ rm -f netty-all-4.1.8.Final.jar
 
 jar cv0f spark-libs.jar -C $KYLIN_HOME/spark_jars .
 #aws s3 cp spark-libs.jar s3://jutomate-kylin-hbase/kylin/package/  # You choose s3 as your working-dir
-hadoop fs -put spark-libs.jar /kylin/package/  # You choose hdfs as your working-dir
+sudo -u hadoop hadoop fs -put spark-libs.jar /kylin/package/  # You choose hdfs as your working-dir
