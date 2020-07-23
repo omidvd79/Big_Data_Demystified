@@ -5,6 +5,7 @@
 
 #if using HDFS
 hadoop fs -mkdir /kylin 
+hadoop fs -mkdir /kylin/package
 
 #Remove joda.jar
 mv $HIVE_HOME/lib/jackson-datatype-joda-2.4.6.jar $HIVE_HOME/lib/jackson-datatype-joda-2.4.6.jar.backup
@@ -20,4 +21,4 @@ rm -f netty-all-4.1.8.Final.jar
 
 jar cv0f spark-libs.jar -C $KYLIN_HOME/spark_jars .
 #aws s3 cp spark-libs.jar s3://jutomate-kylin-hbase/kylin/package/  # You choose s3 as your working-dir
-hadoop fs -put spark-libs.jar hdfs://kylin/package/  # You choose hdfs as your working-dir
+hadoop fs -put spark-libs.jar /kylin/package/  # You choose hdfs as your working-dir
