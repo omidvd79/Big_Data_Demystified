@@ -1,0 +1,2 @@
+#inside kylin.properties
+nano $KYLIN_HOME/conf/kylin.properties
