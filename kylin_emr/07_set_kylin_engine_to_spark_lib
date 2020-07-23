@@ -1,4 +1,6 @@
 #inside kylin.properties
 nano $KYLIN_HOME/conf/kylin.properties
 # kylin.engine.spark-conf.spark.yarn.archive=hdfs://kylin/package/spark-libs.jar
+# kylin.engine.spark-conf.spark.yarn.archive=hdfs://namenode:8020/kylin/package/spark-libs.jar
+
 
