@@ -1,5 +1,10 @@
 <property>
     <name>kylin.env.hdfs-working-dir</name>
+    <value>/kylin</value>
+  </property>
+
+<!--property>
+    <name>kylin.env.hdfs-working-dir</name>
     <value>s3://jutomate-kylin-hbase/kylin</value>
   </property>
 
@@ -10,7 +15,7 @@
 
 <property>
     <name>kylin.env.hdfs-working-dir</name>
-    <value>s3://jutomate-kylin-hbase/kylin</value>
+    <value>s3://jutomate-kylin-hbase/kylin</value-->
   </property>
 
   <property>
