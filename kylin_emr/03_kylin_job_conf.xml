@@ -1,3 +1,4 @@
+<!-- sudo nano $KYLIN_HOME/conf/kylin_job_conf.xml-->
 <property>
     <name>kylin.env.hdfs-working-dir</name>
     <value>/kylin</value>
