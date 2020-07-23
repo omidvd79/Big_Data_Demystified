@@ -1,5 +1,5 @@
-#nano ~/.bashrc 
-# add 
+#sudo nano ~/.bashrc 
+# add the below:
 
 export KYLIN_HOME=/usr/local/kylin/apache-kylin-3.1.0-bin-hbase1x
 export HIVE_HOME=/usr/lib/hive
@@ -19,4 +19,4 @@ echo #KYLIN_HOME
 
 
 
-bash
+#bash
