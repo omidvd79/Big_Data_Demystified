@@ -10,6 +10,6 @@ jar cv0f spark-libs.jar -C $KYLIN_HOME/spark_jars .
 ##aws s3 cp spark-libs.jar s3://{YOUR_BUCKET}/kylin/package/  # You choose s3 as your working-dir
 
 # if you use HDFS
-hadoop fs -mkdir /kylin/package 
-hadoop fs -put spark-libs.jar /kylin/package/
+sudo -u hadoop hadoop fs -mkdir /kylin/package 
+sudo -u hadoop hadoop fs -put spark-libs.jar /kylin/package/
 
