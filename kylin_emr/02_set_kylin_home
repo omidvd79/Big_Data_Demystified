@@ -1,0 +1,4 @@
+#nano ~/.bashrc 
+# add export KYLIN_HOME=/usr/local/kylin/apache-kylin-3.1.0-bin-hbase1x
+echo #KYLIN_HOME
+bash
