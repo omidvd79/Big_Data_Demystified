@@ -14,9 +14,7 @@ export hive_dependency=$HIVE_HOME/conf:$HIVE_HOME/lib/:$HIVE_HOME/lib/hive-hcata
 export PATH=$KYLIN_HOME/bin:$PATH
 
 export hive_dependency=$HIVE_HOME/conf:$HIVE_HOME/lib/*:$HIVE_HOME/lib/hive-hcatalog-core.jar:/usr/share/aws/hmclient/lib/*:$SPARK_HOME/jars/*:$HBASE_HOME/lib/*.jar:$HBASE_HOME/*.jar
-echo #KYLIN_HOME
 
-
-
-
+#type the below
+#echo $KYLIN_HOME
 #bash
