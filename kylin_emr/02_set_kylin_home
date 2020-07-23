@@ -1,11 +1,12 @@
 #nano ~/.bashrc 
-# add export KYLIN_HOME=/usr/local/kylin/apache-kylin-3.1.0-bin-hbase1x
+# add 
+
+export KYLIN_HOME=/usr/local/kylin/apache-kylin-3.1.0-bin-hbase1x
 export HIVE_HOME=/usr/lib/hive
 export HADOOP_HOME=/usr/lib/hadoop
 export HBASE_HOME=/usr/lib/hbase
 export SPARK_HOME=/usr/lib/spark
 
-export KYLIN_HOME=/home/ec2-user/apache-kylin-3.0.0-SNAPSHOT-bin
 export HCAT_HOME=/usr/lib/hive-hcatalog
 export KYLIN_CONF_HOME=$KYLIN_HOME/conf
 export tomcat_root=$KYLIN_HOME/tomcat
