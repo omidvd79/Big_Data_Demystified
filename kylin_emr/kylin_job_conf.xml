@@ -1,0 +1,44 @@
+<property>
+    <name>kylin.env.hdfs-working-dir</name>
+    <value>s3://jutomate-kylin-hbase/kylin</value>
+  </property>
+
+  <property>
+    <name>kylin.storage.hbase.cluster-fs</name>
+    <value>s3://jutomate-kylin-hbase</value>
+  </property>
+
+<property>
+    <name>kylin.env.hdfs-working-dir</name>
+    <value>s3://jutomate-kylin-hbase/kylin</value>
+  </property>
+
+  <property>
+    <name>kylin.source.hive.redistribute-flat-table</name>
+    <value>false</value>
+  </property>
+
+<property>
+  <name>io.file.buffer.size</name>
+  <value>65536</value>
+</property>
+<property>
+  <name>mapred.map.tasks.speculative.execution</name>
+  <value>false</value>
+</property>
+<property>
+  <name>mapred.reduce.tasks.speculative.execution</name>
+  <value>false</value>
+</property>
+<property>
+  <name>mapreduce.map.speculative</name>
+  <value>false</value>
+</property>
+<property>
+  <name>mapreduce.reduce.speculative</name>
+  <value>false</value>
+</property>
+
+
+
+<!--end of kylin instrucitons-->
