@@ -9,6 +9,6 @@ cd Python-3.7.2.tgz
 ./configure --enable-optimizations
 sudo make altinstall
 
-
+#install airflow
 sudo pip install apache-airflow
 sudo pip install apache-airflow[all]
