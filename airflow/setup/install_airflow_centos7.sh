@@ -7,4 +7,5 @@ sudo pip3 install wheel
 
 #install airflow
 sudo pip3 install apache-airflow
-sudo pip3 install apache-airflow[all]
+sudo pip3 install apache-airflow[devel]
+#sudo pip3 install apache-airflow[all]
