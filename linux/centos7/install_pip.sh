@@ -7,6 +7,8 @@ sudo pip install --upgrade pip
 pip install --upgrade setuptools
 sudo yum install --assumeyes python3-pip
 pip3 install --upgrade setuptools
+sudo yum install -y python3-devel
+sudo yum install -y python2-devel
 
 
 
