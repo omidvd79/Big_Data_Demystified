@@ -3,6 +3,7 @@
 sudo yum install -y epel-release
 sudo yum -y update
 sudo yum -y install python-pip
+sudo pip install --upgrade pip
 
 
 
