@@ -6,3 +6,5 @@ tar xzf Python-3.7.2.tgz
 cd Python-3.7.2.tgz
 ./configure --enable-optimizations
 sudo make altinstall
+
+python3.7 -V
