@@ -15,5 +15,5 @@ yum install -y nano
 # sqream ALL=(ALL)        ALL
 
 #change password for user
-passwd sqream
+#passwd sqream
 
