@@ -7,7 +7,7 @@ wget https://www.python.org/ftp/python/3.7.2/Python-3.7.2.tgz
 tar xzf Python-3.7.2.tgz
 cd Python-3.7.2.tgz
 ./configure --enable-optimizations
-make altinstall
+sudo make altinstall
 
 
 sudo pip install apache-airflow
