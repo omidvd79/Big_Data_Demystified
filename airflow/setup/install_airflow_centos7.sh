@@ -1,6 +1,10 @@
 sudo yum install  -y mariadb-devel gcc-c++ cyrus-sasl-devel
 pip install wheel
 sudo pip3 install wheel
+python3 -m pip install --upgrade pip
+pip install configparser
+pip3 install mysqlclient
+
  
 
 #install python 3.7
