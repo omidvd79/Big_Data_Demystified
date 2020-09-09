@@ -1,6 +1,6 @@
 create or replace stage MYS3STAGE3 
 url='s3://omid-simpo-test/partition/' 
-CREDENTIALS=(aws_key_id='AKIAXVQKKZZNIFJ7Y7CW' aws_secret_key='/mlA42Do6EkJwDASsW+TVuyKGyNK2JV5L3lb0q6y') ;
+CREDENTIALS=(aws_key_id='A12W' aws_secret_key='/m1yN15L1') ;
 
 select $1 as a,$2 as b,$3 as c from @MYS3STAGE3 (file_format => mys3csv) limit 10 --will bring all
 
