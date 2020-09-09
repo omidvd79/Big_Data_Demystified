@@ -2,7 +2,7 @@ list @MYS3STAGE
 
 create or replace stage MYS3STAGE2 
 url='s3://omid-simpo-test/csv/' 
-CREDENTIALS=(aws_key_id='AKIAXV=CW' aws_secret_key='/mlA42D=3lb0q6y') ;
+CREDENTIALS=(aws_key_id='AK11=CW' aws_secret_key='/my') ;
 
 select $1 as a,$2 as b,$3 as c from @MYS3STAGE2 (file_format => mys3csv) limit 10
 
