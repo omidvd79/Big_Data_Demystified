@@ -1,5 +1,5 @@
 create or replace stage MYS3STAGE2_json 
-url='s3://omid-simpo-test/json/' 
+url='s3://omid-test/json/' 
 CREDENTIALS=(aws_key_id='AW' aws_secret_key='/ml6y') ;
 
 with data as(
