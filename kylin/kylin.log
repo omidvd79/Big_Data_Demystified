@@ -393,3 +393,1016 @@ WHERE 1=1;
 ========================================================================= 2
 2020-09-20 16:04:34,210 TRACE [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:530 : Dump JobCheckList:	
 2020-09-20 16:04:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:05:06,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:05:33,626 INFO  [BadQueryDetector] service.BadQueryDetector:148 : Detect bad query.
+2020-09-20 16:05:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:06:06,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:06:33,626 INFO  [BadQueryDetector] service.BadQueryDetector:148 : Detect bad query.
+2020-09-20 16:06:34,209 DEBUG [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:142 : 
+========================================================================= 3
+2020-09-20 16:06:34,209 TRACE [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:530 : Dump JobCheckList:	
+2020-09-20 16:06:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:07:06,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:07:33,627 INFO  [BadQueryDetector] service.BadQueryDetector:148 : Detect bad query.
+2020-09-20 16:07:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:08:06,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:08:33,627 INFO  [BadQueryDetector] service.BadQueryDetector:148 : Detect bad query.
+2020-09-20 16:08:34,209 DEBUG [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:142 : 
+========================================================================= 4
+2020-09-20 16:08:34,209 TRACE [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:530 : Dump JobCheckList:	
+2020-09-20 16:08:34,210 DEBUG [streaming_job_submitter-thread-1] coordinator.ZookeeperStreamMetadataStore:673 : [StreamMetadataStoreStats]  read : 2 ; write: 1 ; read failed: 0 ; write failed: 0 .
+2020-09-20 16:08:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:09:06,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:09:33,628 INFO  [BadQueryDetector] service.BadQueryDetector:148 : Detect bad query.
+2020-09-20 16:09:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:10:06,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:10:33,628 INFO  [BadQueryDetector] service.BadQueryDetector:148 : Detect bad query.
+2020-09-20 16:10:34,209 DEBUG [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:142 : 
+========================================================================= 5
+2020-09-20 16:10:34,209 TRACE [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:530 : Dump JobCheckList:	
+2020-09-20 16:10:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:11:06,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:11:33,629 INFO  [BadQueryDetector] service.BadQueryDetector:148 : Detect bad query.
+2020-09-20 16:11:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:12:06,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:12:33,629 INFO  [BadQueryDetector] service.BadQueryDetector:148 : Detect bad query.
+2020-09-20 16:12:34,209 DEBUG [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:142 : 
+========================================================================= 6
+2020-09-20 16:12:34,210 TRACE [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:530 : Dump JobCheckList:	
+2020-09-20 16:12:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:13:06,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:13:33,630 INFO  [BadQueryDetector] service.BadQueryDetector:148 : Detect bad query.
+2020-09-20 16:13:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:14:06,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:14:33,630 INFO  [BadQueryDetector] service.BadQueryDetector:148 : Detect bad query.
+2020-09-20 16:14:34,209 DEBUG [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:142 : 
+========================================================================= 7
+2020-09-20 16:14:34,210 TRACE [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:530 : Dump JobCheckList:	
+2020-09-20 16:14:34,210 DEBUG [streaming_job_submitter-thread-1] coordinator.ZookeeperStreamMetadataStore:673 : [StreamMetadataStoreStats]  read : 2 ; write: 1 ; read failed: 0 ; write failed: 0 .
+2020-09-20 16:14:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:15:06,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:15:09,867 DEBUG [http-bio-7070-exec-4] badquery.BadQueryHistoryManager:65 : Loaded 0 Bad Query(s)
+2020-09-20 16:15:33,631 INFO  [BadQueryDetector] service.BadQueryDetector:148 : Detect bad query.
+2020-09-20 16:15:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:15:38,684 DEBUG [http-bio-7070-exec-5] service.CubeService:554 : Loading HTable info tpch_s1_join_3_tables, KYLIN_C0YQ42U1D5
+2020-09-20 16:15:38,774 DEBUG [http-bio-7070-exec-5] hbase.HBaseConnection:181 : Using the working dir FS for HBase: hdfs://localhost:9000
+2020-09-20 16:15:38,775 INFO  [http-bio-7070-exec-5] hbase.HBaseConnection:267 : connection is null or closed, creating a new one
+2020-09-20 16:15:38,787 INFO  [http-bio-7070-exec-5] util.HBaseRegionSizeCalculator:78 : Calculating region sizes for table "KYLIN_C0YQ42U1D5".
+2020-09-20 16:15:41,566 WARN  [http-bio-7070-exec-5] controller.CubeController:918 : Fail to query on system cube due to org.apache.kylin.rest.exception.BadRequestException: Cannot find project 'KYLIN_SYSTEM'.
+2020-09-20 16:16:06,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:16:15,785 DEBUG [http-bio-7070-exec-3] common.KylinConfig:346 : KYLIN_CONF property was not set, will seek KYLIN_HOME env variable
+2020-09-20 16:16:15,785 INFO  [http-bio-7070-exec-3] common.KylinConfig:352 : Use KYLIN_HOME=/home/admin/apache-kylin-3.1.0-bin-hbase1x
+2020-09-20 16:16:16,176 DEBUG [http-bio-7070-exec-8] project.ProjectL2Cache:198 : Loading L2 project cache for JutoLake
+2020-09-20 16:16:32,211 WARN  [http-bio-7070-exec-10] controller.CubeController:918 : Fail to query on system cube due to org.apache.kylin.rest.exception.BadRequestException: Cannot find project 'KYLIN_SYSTEM'.
+2020-09-20 16:16:33,632 INFO  [BadQueryDetector] service.BadQueryDetector:148 : Detect bad query.
+2020-09-20 16:16:34,209 DEBUG [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:142 : 
+========================================================================= 8
+2020-09-20 16:16:34,209 TRACE [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:530 : Dump JobCheckList:	
+2020-09-20 16:16:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:16:59,319 DEBUG [http-bio-7070-exec-8] controller.CubeController:1001 : Saving cube {
+  "uuid": "441b193a-30ea-5df0-fb14-de0d014834a4",
+  "last_modified": 1600598159451,
+  "version": "3.0.0.20500",
+  "name": "tpch_s1_join_3_tables",
+  "is_draft": false,
+  "model_name": "tpch_s1",
+  "description": "",
+  "dimensions": [
+    {
+      "name": "L_ORDERKEY",
+      "table": "LINEITEM",
+      "column": "L_ORDERKEY"
+    },
+    {
+      "name": "L_SUPPKEY",
+      "table": "LINEITEM",
+      "column": "L_SUPPKEY"
+    },
+    {
+      "name": "L_RETURNFLAG",
+      "table": "LINEITEM",
+      "column": "L_RETURNFLAG"
+    },
+    {
+      "name": "L_LINESTATUS",
+      "table": "LINEITEM",
+      "column": "L_LINESTATUS"
+    },
+    {
+      "name": "S_SUPPKEY",
+      "table": "SUPPLIER",
+      "derived": [
+        "S_SUPPKEY"
+      ]
+    },
+    {
+      "name": "S_NAME",
+      "table": "SUPPLIER",
+      "derived": [
+        "S_NAME"
+      ]
+    },
+    {
+      "name": "O_ORDERKEY",
+      "table": "ORDERS",
+      "derived": [
+        "O_ORDERKEY"
+      ]
+    },
+    {
+      "name": "O_CUSTKEY",
+      "table": "ORDERS",
+      "derived": [
+        "O_CUSTKEY"
+      ]
+    },
+    {
+      "name": "O_ORDERDATE",
+      "table": "ORDERS",
+      "derived": [
+        "O_ORDERDATE"
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "name": "_COUNT_",
+      "function": {
+        "expression": "COUNT",
+        "parameter": {
+          "type": "constant",
+          "value": "1"
+        },
+        "returntype": "bigint"
+      }
+    },
+    {
+      "name": "SUM_QUANTITIY",
+      "function": {
+        "expression": "SUM",
+        "parameter": {
+          "type": "column",
+          "value": "LINEITEM.L_QUANTITY"
+        },
+        "returntype": "double"
+      }
+    },
+    {
+      "name": "SUM_EXTENTED",
+      "function": {
+        "expression": "SUM",
+        "parameter": {
+          "type": "column",
+          "value": "LINEITEM.L_EXTENDEDPRICE"
+        },
+        "returntype": "double"
+      }
+    },
+    {
+      "name": "SUM_DISCOUNT",
+      "function": {
+        "expression": "SUM",
+        "parameter": {
+          "type": "column",
+          "value": "LINEITEM.L_DISCOUNT"
+        },
+        "returntype": "double"
+      }
+    }
+  ],
+  "dictionaries": [],
+  "rowkey": {
+    "rowkey_columns": [
+      {
+        "column": "LINEITEM.L_ORDERKEY",
+        "encoding": "dict",
+        "encoding_version": 1,
+        "isShardBy": false
+      },
+      {
+        "column": "LINEITEM.L_SUPPKEY",
+        "encoding": "dict",
+        "encoding_version": 1,
+        "isShardBy": false
+      },
+      {
+        "column": "LINEITEM.L_RETURNFLAG",
+        "encoding": "dict",
+        "encoding_version": 1,
+        "isShardBy": false
+      },
+      {
+        "column": "LINEITEM.L_LINESTATUS",
+        "encoding": "dict",
+        "encoding_version": 1,
+        "isShardBy": false
+      }
+    ]
+  },
+  "hbase_mapping": {
+    "column_family": [
+      {
+        "name": "F1",
+        "columns": [
+          {
+            "qualifier": "M",
+            "measure_refs": [
+              "_COUNT_",
+              "SUM_QUANTITIY",
+              "SUM_EXTENTED",
+              "SUM_DISCOUNT"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "aggregation_groups": [
+    {
+      "includes": [
+        "LINEITEM.L_ORDERKEY",
+        "LINEITEM.L_SUPPKEY",
+        "LINEITEM.L_RETURNFLAG",
+        "LINEITEM.L_LINESTATUS"
+      ],
+      "select_rule": {
+        "hierarchy_dims": [],
+        "mandatory_dims": [],
+        "joint_dims": []
+      }
+    }
+  ],
+  "signature": "B1M7TAawwcrN+rqLnh8brg==",
+  "notify_list": [],
+  "status_need_notify": [
+    "ERROR",
+    "DISCARDED",
+    "SUCCEED"
+  ],
+  "partition_date_start": 0,
+  "partition_date_end": 3153600000000,
+  "auto_merge_time_ranges": [
+    604800000,
+    2419200000
+  ],
+  "volatile_range": 0,
+  "retention_range": 0,
+  "engine_type": 2,
+  "storage_type": 2,
+  "override_kylin_properties": {},
+  "cuboid_black_list": [],
+  "parent_forward": 3,
+  "mandatory_dimension_set_list": [],
+  "snapshot_table_desc_list": [],
+  "project": "JutoLake"
+}
+2020-09-20 16:16:59,401 DEBUG [http-bio-7070-exec-8] cachesync.CachedCrudAssist:223 : Saving CubeDesc at /cube_desc/tpch_s1_join_3_tables.json
+2020-09-20 16:16:59,419 DEBUG [pool-5-thread-1] cachesync.Broadcaster:119 : Servers in the cluster: [localhost:7070]
+2020-09-20 16:16:59,420 DEBUG [pool-5-thread-1] cachesync.Broadcaster:129 : Announcing new broadcast to all: BroadcastEvent{entity=cube_desc, event=update, cacheKey=tpch_s1_join_3_tables}
+2020-09-20 16:16:59,423 INFO  [http-bio-7070-exec-8] service.CubeService:305 : Updated cube tpch_s1_join_3_tables has 15 cuboids
+2020-09-20 16:16:59,426 DEBUG [http-bio-7070-exec-6] cachesync.Broadcaster:267 : Broadcasting UPDATE, cube_desc, tpch_s1_join_3_tables
+2020-09-20 16:16:59,429 DEBUG [http-bio-7070-exec-6] cachesync.Broadcaster:267 : Broadcasting UPDATE, project_schema, JutoLake
+2020-09-20 16:16:59,437 INFO  [http-bio-7070-exec-6] model.DataModelManager:115 : Update models in project: JutoLake
+2020-09-20 16:16:59,439 DEBUG [http-bio-7070-exec-6] project.ProjectL2Cache:198 : Loading L2 project cache for JutoLake
+2020-09-20 16:16:59,448 DEBUG [http-bio-7070-exec-6] project.ProjectL2Cache:198 : Loading L2 project cache for JutoLake
+2020-09-20 16:16:59,449 INFO  [http-bio-7070-exec-6] service.CacheService:123 : cleaning cache for project JutoLake (currently remove all entries)
+2020-09-20 16:16:59,450 DEBUG [http-bio-7070-exec-6] cachesync.Broadcaster:301 : Done broadcasting UPDATE, project_schema, JutoLake
+2020-09-20 16:16:59,450 DEBUG [http-bio-7070-exec-6] cachesync.Broadcaster:301 : Done broadcasting UPDATE, cube_desc, tpch_s1_join_3_tables
+2020-09-20 16:17:06,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:17:10,561 ERROR [http-bio-7070-exec-5] controller.CubeController:405 : The cube tpch_s1_join_3_tables has segments [tpch_s1_join_3_tables[FULL_BUILD]], but none of them is READY. It's not allowed for parallel building
+org.apache.kylin.rest.exception.BadRequestException: The cube tpch_s1_join_3_tables has segments [tpch_s1_join_3_tables[FULL_BUILD]], but none of them is READY. It's not allowed for parallel building
+	at org.apache.kylin.rest.service.JobService.checkAllowParallelBuilding(JobService.java:446)
+	at org.apache.kylin.rest.service.JobService.submitJobInternal(JobService.java:245)
+	at org.apache.kylin.rest.service.JobService.submitJob(JobService.java:226)
+	at org.apache.kylin.rest.controller.CubeController.buildInternal(CubeController.java:402)
+	at org.apache.kylin.rest.controller.CubeController.rebuild(CubeController.java:362)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:849)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:760)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:209)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:244)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1195)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-09-20 16:17:10,574 ERROR [http-bio-7070-exec-5] controller.BasicController:63 : 
+org.apache.kylin.rest.exception.InternalErrorException: The cube tpch_s1_join_3_tables has segments [tpch_s1_join_3_tables[FULL_BUILD]], but none of them is READY. It's not allowed for parallel building
+	at org.apache.kylin.rest.controller.CubeController.buildInternal(CubeController.java:406)
+	at org.apache.kylin.rest.controller.CubeController.rebuild(CubeController.java:362)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:849)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:760)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:209)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:244)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1195)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.kylin.rest.exception.BadRequestException: The cube tpch_s1_join_3_tables has segments [tpch_s1_join_3_tables[FULL_BUILD]], but none of them is READY. It's not allowed for parallel building
+	at org.apache.kylin.rest.service.JobService.checkAllowParallelBuilding(JobService.java:446)
+	at org.apache.kylin.rest.service.JobService.submitJobInternal(JobService.java:245)
+	at org.apache.kylin.rest.service.JobService.submitJob(JobService.java:226)
+	at org.apache.kylin.rest.controller.CubeController.buildInternal(CubeController.java:402)
+	... 77 more
+2020-09-20 16:17:10,582 WARN  [http-bio-7070-exec-5] annotation.ExceptionHandlerExceptionResolver:136 : Resolved [org.apache.kylin.rest.exception.InternalErrorException: The cube tpch_s1_join_3_tables has segments [tpch_s1_join_3_tables[FULL_BUILD]], but none of them is READY. It's not allowed for parallel building]
+2020-09-20 16:17:15,213 DEBUG [http-bio-7070-exec-3] badquery.BadQueryHistoryManager:65 : Loaded 0 Bad Query(s)
+2020-09-20 16:17:23,780 INFO  [http-bio-7070-exec-4] service.JobService:638 : Cancel job [8e6ed1b1-33f6-be4f-fb58-26a7785b6561] trigger by ADMIN
+2020-09-20 16:17:23,784 INFO  [http-bio-7070-exec-4] cube.CubeManager:373 : Updating cube instance 'tpch_s1_join_3_tables'
+2020-09-20 16:17:23,785 INFO  [http-bio-7070-exec-4] cube.CubeManager:477 : Remove segment tpch_s1_join_3_tables[FULL_BUILD]
+2020-09-20 16:17:23,785 DEBUG [http-bio-7070-exec-4] cachesync.CachedCrudAssist:223 : Saving CubeInstance at /cube/tpch_s1_join_3_tables.json
+2020-09-20 16:17:23,788 DEBUG [pool-5-thread-1] cachesync.Broadcaster:119 : Servers in the cluster: [localhost:7070]
+2020-09-20 16:17:23,788 DEBUG [pool-5-thread-1] cachesync.Broadcaster:129 : Announcing new broadcast to all: BroadcastEvent{entity=cube, event=update, cacheKey=tpch_s1_join_3_tables}
+2020-09-20 16:17:23,793 DEBUG [http-bio-7070-exec-7] cachesync.Broadcaster:267 : Broadcasting UPDATE, cube, tpch_s1_join_3_tables
+2020-09-20 16:17:23,797 DEBUG [http-bio-7070-exec-7] cachesync.Broadcaster:267 : Broadcasting UPDATE, project_data, JutoLake
+2020-09-20 16:17:23,797 INFO  [http-bio-7070-exec-7] service.CacheService:123 : cleaning cache for project JutoLake (currently remove all entries)
+2020-09-20 16:17:23,798 DEBUG [http-bio-7070-exec-7] cachesync.Broadcaster:301 : Done broadcasting UPDATE, project_data, JutoLake
+2020-09-20 16:17:23,802 INFO  [http-bio-7070-exec-4] execution.ExecutableManager:479 : job id:8e6ed1b1-33f6-be4f-fb58-26a7785b6561-01 from ERROR to DISCARDED
+2020-09-20 16:17:23,805 INFO  [http-bio-7070-exec-4] execution.ExecutableManager:479 : job id:8e6ed1b1-33f6-be4f-fb58-26a7785b6561-02 from READY to DISCARDED
+2020-09-20 16:17:23,805 DEBUG [http-bio-7070-exec-7] cachesync.Broadcaster:301 : Done broadcasting UPDATE, cube, tpch_s1_join_3_tables
+2020-09-20 16:17:23,807 INFO  [http-bio-7070-exec-4] execution.ExecutableManager:479 : job id:8e6ed1b1-33f6-be4f-fb58-26a7785b6561-03 from READY to DISCARDED
+2020-09-20 16:17:23,810 INFO  [http-bio-7070-exec-4] execution.ExecutableManager:479 : job id:8e6ed1b1-33f6-be4f-fb58-26a7785b6561-04 from READY to DISCARDED
+2020-09-20 16:17:23,813 INFO  [http-bio-7070-exec-4] execution.ExecutableManager:479 : job id:8e6ed1b1-33f6-be4f-fb58-26a7785b6561-05 from READY to DISCARDED
+2020-09-20 16:17:23,816 INFO  [http-bio-7070-exec-4] execution.ExecutableManager:479 : job id:8e6ed1b1-33f6-be4f-fb58-26a7785b6561-06 from READY to DISCARDED
+2020-09-20 16:17:23,819 INFO  [http-bio-7070-exec-4] execution.ExecutableManager:479 : job id:8e6ed1b1-33f6-be4f-fb58-26a7785b6561-07 from READY to DISCARDED
+2020-09-20 16:17:23,822 INFO  [http-bio-7070-exec-4] execution.ExecutableManager:479 : job id:8e6ed1b1-33f6-be4f-fb58-26a7785b6561-08 from READY to DISCARDED
+2020-09-20 16:17:23,825 INFO  [http-bio-7070-exec-4] execution.ExecutableManager:479 : job id:8e6ed1b1-33f6-be4f-fb58-26a7785b6561-09 from READY to DISCARDED
+2020-09-20 16:17:23,828 INFO  [http-bio-7070-exec-4] execution.ExecutableManager:479 : job id:8e6ed1b1-33f6-be4f-fb58-26a7785b6561-10 from READY to DISCARDED
+2020-09-20 16:17:23,831 INFO  [http-bio-7070-exec-4] execution.ExecutableManager:479 : job id:8e6ed1b1-33f6-be4f-fb58-26a7785b6561-11 from READY to DISCARDED
+2020-09-20 16:17:23,833 INFO  [http-bio-7070-exec-4] execution.ExecutableManager:479 : job id:8e6ed1b1-33f6-be4f-fb58-26a7785b6561-12 from READY to DISCARDED
+2020-09-20 16:17:23,836 INFO  [http-bio-7070-exec-4] execution.ExecutableManager:479 : job id:8e6ed1b1-33f6-be4f-fb58-26a7785b6561-13 from READY to DISCARDED
+2020-09-20 16:17:23,839 INFO  [http-bio-7070-exec-4] execution.ExecutableManager:479 : job id:8e6ed1b1-33f6-be4f-fb58-26a7785b6561-14 from READY to DISCARDED
+2020-09-20 16:17:23,842 DEBUG [pool-5-thread-1] cachesync.Broadcaster:119 : Servers in the cluster: [localhost:7070]
+2020-09-20 16:17:23,842 DEBUG [pool-5-thread-1] cachesync.Broadcaster:129 : Announcing new broadcast to all: BroadcastEvent{entity=execute_output, event=update, cacheKey=8e6ed1b1-33f6-be4f-fb58-26a7785b6561}
+2020-09-20 16:17:23,842 INFO  [http-bio-7070-exec-4] execution.ExecutableManager:479 : job id:8e6ed1b1-33f6-be4f-fb58-26a7785b6561 from ERROR to DISCARDED
+2020-09-20 16:17:23,847 DEBUG [http-bio-7070-exec-7] cachesync.Broadcaster:267 : Broadcasting UPDATE, execute_output, 8e6ed1b1-33f6-be4f-fb58-26a7785b6561
+2020-09-20 16:17:23,848 DEBUG [http-bio-7070-exec-7] cachesync.Broadcaster:301 : Done broadcasting UPDATE, execute_output, 8e6ed1b1-33f6-be4f-fb58-26a7785b6561
+2020-09-20 16:17:23,922 DEBUG [http-bio-7070-exec-4] hbase.HBaseConnection:181 : Using the working dir FS for HBase: hdfs://localhost:9000
+2020-09-20 16:17:26,628 DEBUG [pool-5-thread-1] cachesync.Broadcaster:119 : Servers in the cluster: [localhost:7070]
+2020-09-20 16:17:26,629 DEBUG [pool-5-thread-1] cachesync.Broadcaster:129 : Announcing new broadcast to all: BroadcastEvent{entity=execute, event=drop, cacheKey=8e6ed1b1-33f6-be4f-fb58-26a7785b6561}
+2020-09-20 16:17:26,634 DEBUG [http-bio-7070-exec-7] cachesync.Broadcaster:267 : Broadcasting DROP, execute, 8e6ed1b1-33f6-be4f-fb58-26a7785b6561
+2020-09-20 16:17:26,635 DEBUG [http-bio-7070-exec-7] cachesync.Broadcaster:301 : Done broadcasting DROP, execute, 8e6ed1b1-33f6-be4f-fb58-26a7785b6561
+2020-09-20 16:17:26,651 INFO  [http-bio-7070-exec-4] service.JobService:760 : Delete job [8e6ed1b1-33f6-be4f-fb58-26a7785b6561] trigger by + ADMIN
+2020-09-20 16:17:33,632 INFO  [BadQueryDetector] service.BadQueryDetector:148 : Detect bad query.
+2020-09-20 16:17:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 1 error, 0 discarded, 0 others
+2020-09-20 16:17:41,025 DEBUG [http-bio-7070-exec-9] badquery.BadQueryHistoryManager:65 : Loaded 0 Bad Query(s)
+2020-09-20 16:17:47,877 INFO  [http-bio-7070-exec-2] cube.CubeManager:373 : Updating cube instance 'tpch_s1_join_3_tables'
+2020-09-20 16:17:47,878 WARN  [http-bio-7070-exec-2] model.Segments:463 : NEW segment start does not fit/connect with other segments: tpch_s1_join_3_tables[FULL_BUILD]
+2020-09-20 16:17:47,878 WARN  [http-bio-7070-exec-2] model.Segments:465 : NEW segment end does not fit/connect with other segments: tpch_s1_join_3_tables[FULL_BUILD]
+2020-09-20 16:17:47,879 DEBUG [http-bio-7070-exec-2] cachesync.CachedCrudAssist:223 : Saving CubeInstance at /cube/tpch_s1_join_3_tables.json
+2020-09-20 16:17:47,882 DEBUG [pool-5-thread-1] cachesync.Broadcaster:119 : Servers in the cluster: [localhost:7070]
+2020-09-20 16:17:47,882 DEBUG [pool-5-thread-1] cachesync.Broadcaster:129 : Announcing new broadcast to all: BroadcastEvent{entity=cube, event=update, cacheKey=tpch_s1_join_3_tables}
+2020-09-20 16:17:47,885 INFO  [http-bio-7070-exec-2] mr.BatchCubingJobBuilder2:54 : MR_V2 new job to BUILD segment tpch_s1_join_3_tables[FULL_BUILD]
+2020-09-20 16:17:47,887 DEBUG [http-bio-7070-exec-6] cachesync.Broadcaster:267 : Broadcasting UPDATE, cube, tpch_s1_join_3_tables
+2020-09-20 16:17:47,889 DEBUG [http-bio-7070-exec-6] cachesync.Broadcaster:267 : Broadcasting UPDATE, project_data, JutoLake
+2020-09-20 16:17:47,889 INFO  [http-bio-7070-exec-6] service.CacheService:123 : cleaning cache for project JutoLake (currently remove all entries)
+2020-09-20 16:17:47,890 DEBUG [http-bio-7070-exec-6] cachesync.Broadcaster:301 : Done broadcasting UPDATE, project_data, JutoLake
+2020-09-20 16:17:47,891 DEBUG [http-bio-7070-exec-6] cachesync.Broadcaster:301 : Done broadcasting UPDATE, cube, tpch_s1_join_3_tables
+2020-09-20 16:17:47,977 DEBUG [http-bio-7070-exec-2] hbase.HBaseConnection:181 : Using the working dir FS for HBase: hdfs://localhost:9000
+2020-09-20 16:17:47,980 DEBUG [pool-5-thread-1] cachesync.Broadcaster:119 : Servers in the cluster: [localhost:7070]
+2020-09-20 16:17:47,980 DEBUG [pool-5-thread-1] cachesync.Broadcaster:129 : Announcing new broadcast to all: BroadcastEvent{entity=execute_output, event=create, cacheKey=b53b98f0-60d5-45ff-7c28-99ce0c233f04}
+2020-09-20 16:17:47,984 DEBUG [http-bio-7070-exec-6] cachesync.Broadcaster:267 : Broadcasting CREATE, execute_output, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:17:47,986 DEBUG [http-bio-7070-exec-6] cachesync.Broadcaster:301 : Done broadcasting CREATE, execute_output, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:17:47,995 DEBUG [pool-5-thread-1] cachesync.Broadcaster:119 : Servers in the cluster: [localhost:7070]
+2020-09-20 16:17:47,995 DEBUG [pool-5-thread-1] cachesync.Broadcaster:129 : Announcing new broadcast to all: BroadcastEvent{entity=execute, event=create, cacheKey=b53b98f0-60d5-45ff-7c28-99ce0c233f04}
+2020-09-20 16:17:48,000 DEBUG [http-bio-7070-exec-6] cachesync.Broadcaster:267 : Broadcasting CREATE, execute, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:17:48,001 DEBUG [http-bio-7070-exec-6] cachesync.Broadcaster:301 : Done broadcasting CREATE, execute, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:17:54,453 DEBUG [http-bio-7070-exec-1] badquery.BadQueryHistoryManager:65 : Loaded 0 Bad Query(s)
+2020-09-20 16:18:06,590 INFO  [FetcherRunner 1922151512-57] threadpool.FetcherRunner:65 : CubingJob{id=b53b98f0-60d5-45ff-7c28-99ce0c233f04, name=BUILD CUBE - tpch_s1_join_3_tables - FULL_BUILD - UTC 2020-09-20 16:17:47, state=READY} prepare to schedule and its priority is 20
+2020-09-20 16:18:06,591 INFO  [FetcherRunner 1922151512-57] threadpool.FetcherRunner:69 : CubingJob{id=b53b98f0-60d5-45ff-7c28-99ce0c233f04, name=BUILD CUBE - tpch_s1_join_3_tables - FULL_BUILD - UTC 2020-09-20 16:17:47, state=READY} scheduled
+2020-09-20 16:18:06,591 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 1 actual running, 0 stopped, 1 ready, 10 already succeed, 1 error, 0 discarded, 0 others
+2020-09-20 16:18:06,592 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] execution.AbstractExecutable:161 : Executing AbstractExecutable (BUILD CUBE - tpch_s1_join_3_tables - FULL_BUILD - UTC 2020-09-20 16:17:47)
+2020-09-20 16:18:06,598 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] execution.ExecutableManager:479 : job id:b53b98f0-60d5-45ff-7c28-99ce0c233f04 from READY to RUNNING
+2020-09-20 16:18:06,598 DEBUG [pool-5-thread-1] cachesync.Broadcaster:119 : Servers in the cluster: [localhost:7070]
+2020-09-20 16:18:06,599 DEBUG [pool-5-thread-1] cachesync.Broadcaster:129 : Announcing new broadcast to all: BroadcastEvent{entity=execute_output, event=update, cacheKey=b53b98f0-60d5-45ff-7c28-99ce0c233f04}
+2020-09-20 16:18:06,601 DEBUG [pool-5-thread-1] cachesync.Broadcaster:119 : Servers in the cluster: [localhost:7070]
+2020-09-20 16:18:06,601 DEBUG [pool-5-thread-1] cachesync.Broadcaster:129 : Announcing new broadcast to all: BroadcastEvent{entity=execute_output, event=update, cacheKey=b53b98f0-60d5-45ff-7c28-99ce0c233f04}
+2020-09-20 16:18:06,602 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] execution.AbstractExecutable:161 : Executing AbstractExecutable (Create Intermediate Flat Hive Table)
+2020-09-20 16:18:06,604 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] execution.ExecutableManager:479 : job id:b53b98f0-60d5-45ff-7c28-99ce0c233f04-00 from READY to RUNNING
+2020-09-20 16:18:06,605 DEBUG [http-bio-7070-exec-6] cachesync.Broadcaster:267 : Broadcasting UPDATE, execute_output, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:18:06,607 DEBUG [http-bio-7070-exec-6] cachesync.Broadcaster:301 : Done broadcasting UPDATE, execute_output, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:18:06,613 DEBUG [http-bio-7070-exec-6] cachesync.Broadcaster:267 : Broadcasting UPDATE, execute_output, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:18:06,614 DEBUG [http-bio-7070-exec-6] cachesync.Broadcaster:301 : Done broadcasting UPDATE, execute_output, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:18:06,614 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Create and distribute table, cmd: 
+2020-09-20 16:18:06,615 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : hive -e "set mapreduce.job.name=Create Intermediate Flat Hive Table tpch_s1_join_3_tables b53b98f0-60d5-45ff-7c28-99ce0c233f04-00;
+USE default;
+
+DROP TABLE IF EXISTS kylin_intermediate_tpch_s1_join_3_tables_9e627ccd_961d_f4b4_5c4c_df6dffe9be13;
+CREATE EXTERNAL TABLE IF NOT EXISTS kylin_intermediate_tpch_s1_join_3_tables_9e627ccd_961d_f4b4_5c4c_df6dffe9be13
+(
+LINEITEM_L_ORDERKEY bigint
+,LINEITEM_L_SUPPKEY bigint
+,LINEITEM_L_RETURNFLAG char(1)
+,LINEITEM_L_LINESTATUS char(1)
+,LINEITEM_L_QUANTITY double
+,LINEITEM_L_EXTENDEDPRICE double
+,LINEITEM_L_DISCOUNT double
+)
+STORED AS SEQUENCEFILE
+LOCATION 'hdfs://localhost:9000/kylin/kylin_metadata/kylin-b53b98f0-60d5-45ff-7c28-99ce0c233f04/kylin_intermediate_tpch_s1_join_3_tables_9e627ccd_961d_f4b4_5c4c_df6dffe9be13';
+ALTER TABLE kylin_intermediate_tpch_s1_join_3_tables_9e627ccd_961d_f4b4_5c4c_df6dffe9be13 SET TBLPROPERTIES('auto.purge'='true');
+INSERT OVERWRITE TABLE kylin_intermediate_tpch_s1_join_3_tables_9e627ccd_961d_f4b4_5c4c_df6dffe9be13 SELECT
+LINEITEM.L_ORDERKEY as LINEITEM_L_ORDERKEY
+,LINEITEM.L_SUPPKEY as LINEITEM_L_SUPPKEY
+,LINEITEM.L_RETURNFLAG as LINEITEM_L_RETURNFLAG
+,LINEITEM.L_LINESTATUS as LINEITEM_L_LINESTATUS
+,LINEITEM.L_QUANTITY as LINEITEM_L_QUANTITY
+,LINEITEM.L_EXTENDEDPRICE as LINEITEM_L_EXTENDEDPRICE
+,LINEITEM.L_DISCOUNT as LINEITEM_L_DISCOUNT
+ FROM DEFAULT.LINEITEM as LINEITEM
+INNER JOIN DEFAULT.SUPPLIER as SUPPLIER
+ON LINEITEM.L_SUPPKEY = SUPPLIER.S_SUPPKEY
+INNER JOIN DEFAULT.ORDERS as ORDERS
+ON LINEITEM.L_ORDERKEY = ORDERS.O_ORDERKEY
+WHERE 1=1;
+
+" --hiveconf hive.merge.mapredfiles=false --hiveconf hive.auto.convert.join=true --hiveconf dfs.replication=2 --hiveconf hive.exec.compress.output=true --hiveconf hive.auto.convert.join.noconditionaltask=true --hiveconf mapreduce.job.split.metainfo.maxsize=-1 --hiveconf hive.merge.mapfiles=false --hiveconf hive.auto.convert.join.noconditionaltask.size=100000000 --hiveconf hive.stats.autogather=true
+2020-09-20 16:18:06,689 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : ls: cannot access /home/admin/spark-2.3.1-bin-hadoop2.6/lib/spark-assembly-*.jar: No such file or directory
+2020-09-20 16:18:09,061 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 
+2020-09-20 16:18:09,062 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Logging initialized using configuration in jar:file:/home/admin/apache-hive-1.2.1-bin/lib/hive-common-1.2.1.jar!/hive-log4j.properties
+2020-09-20 16:18:12,630 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : OK
+2020-09-20 16:18:12,631 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Time taken: 0.795 seconds
+2020-09-20 16:18:12,671 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : OK
+2020-09-20 16:18:12,671 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Time taken: 0.04 seconds
+2020-09-20 16:18:12,957 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : OK
+2020-09-20 16:18:12,958 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Time taken: 0.287 seconds
+2020-09-20 16:18:13,064 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : OK
+2020-09-20 16:18:13,065 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Time taken: 0.107 seconds
+2020-09-20 16:18:14,725 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Query ID = root_20200920161813_ada67672-ee2b-48ab-8d5f-fd9f50b15d61
+2020-09-20 16:18:14,725 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Total jobs = 4
+2020-09-20 16:18:16,777 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 20/09/20 16:18:16 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-20 16:18:16,963 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Execution log at: /tmp/root/root_20200920161813_ada67672-ee2b-48ab-8d5f-fd9f50b15d61.log
+2020-09-20 16:18:17,157 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:18:17	Starting to launch local task to process map join;	maximum memory = 514850816
+2020-09-20 16:18:18,084 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:18:18	Dump the side-table for tag: 1 with group count: 10000 into file: file:/tmp/root/e00c48eb-a869-410d-bf93-97ba7166adc7/hive_2020-09-20_16-18-13_067_572791569084607795-1/-local-10007/HashTable-Stage-9/MapJoin-mapfile21--.hashtable
+2020-09-20 16:18:18,131 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:18:18	Uploaded 1 File to: file:/tmp/root/e00c48eb-a869-410d-bf93-97ba7166adc7/hive_2020-09-20_16-18-13_067_572791569084607795-1/-local-10007/HashTable-Stage-9/MapJoin-mapfile21--.hashtable (200851 bytes)
+2020-09-20 16:18:18,131 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:18:18	End of local task; Time Taken: 0.974 sec.
+2020-09-20 16:18:18,992 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Execution completed successfully
+2020-09-20 16:18:18,993 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : MapredLocal task succeeded
+2020-09-20 16:18:19,018 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Launching Job 1 out of 4
+2020-09-20 16:18:19,019 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Number of reduce tasks is set to 0 since there's no reduce operator
+2020-09-20 16:18:19,949 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Starting Job = job_1600586737464_0079, Tracking URL = http://4631d0e08cb3:8088/proxy/application_1600586737464_0079/
+2020-09-20 16:18:19,954 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Kill Command = /home/admin/hadoop-2.7.0/bin/hadoop job  -kill job_1600586737464_0079
+2020-09-20 16:18:24,144 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Hadoop job information for Stage-9: number of mappers: 3; number of reducers: 0
+2020-09-20 16:18:24,190 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:18:24,185 Stage-9 map = 0%,  reduce = 0%
+2020-09-20 16:18:33,633 INFO  [BadQueryDetector] service.BadQueryDetector:148 : Detect bad query.
+2020-09-20 16:18:34,209 DEBUG [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:142 : 
+========================================================================= 9
+2020-09-20 16:18:34,209 TRACE [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:530 : Dump JobCheckList:	
+2020-09-20 16:18:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 1 should running, 1 actual running, 0 stopped, 0 ready, 10 already succeed, 1 error, 0 discarded, 0 others
+2020-09-20 16:18:36,787 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:18:36,786 Stage-9 map = 37%,  reduce = 0%, Cumulative CPU 73.29 sec
+2020-09-20 16:18:37,836 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:18:37,836 Stage-9 map = 53%,  reduce = 0%, Cumulative CPU 79.45 sec
+2020-09-20 16:18:38,883 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:18:38,883 Stage-9 map = 67%,  reduce = 0%, Cumulative CPU 79.45 sec
+2020-09-20 16:18:40,962 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:18:40,962 Stage-9 map = 83%,  reduce = 0%, Cumulative CPU 97.44 sec
+2020-09-20 16:18:42,005 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:18:42,004 Stage-9 map = 100%,  reduce = 0%, Cumulative CPU 99.74 sec
+2020-09-20 16:18:43,046 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : MapReduce Total cumulative CPU time: 1 minutes 39 seconds 740 msec
+2020-09-20 16:18:43,095 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Ended Job = job_1600586737464_0079
+2020-09-20 16:18:43,120 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Stage-10 is filtered out by condition resolver.
+2020-09-20 16:18:43,121 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Stage-11 is filtered out by condition resolver.
+2020-09-20 16:18:43,121 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Stage-2 is selected by condition resolver.
+2020-09-20 16:18:43,121 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Launching Job 2 out of 4
+2020-09-20 16:18:43,124 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Number of reduce tasks not specified. Estimated from input data size: 2
+2020-09-20 16:18:43,125 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : In order to change the average load for a reducer (in bytes):
+2020-09-20 16:18:43,125 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 :   set hive.exec.reducers.bytes.per.reducer=<number>
+2020-09-20 16:18:43,125 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : In order to limit the maximum number of reducers:
+2020-09-20 16:18:43,125 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 :   set hive.exec.reducers.max=<number>
+2020-09-20 16:18:43,125 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : In order to set a constant number of reducers:
+2020-09-20 16:18:43,125 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 :   set mapreduce.job.reduces=<number>
+2020-09-20 16:18:43,376 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Starting Job = job_1600586737464_0080, Tracking URL = http://4631d0e08cb3:8088/proxy/application_1600586737464_0080/
+2020-09-20 16:18:43,380 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Kill Command = /home/admin/hadoop-2.7.0/bin/hadoop job  -kill job_1600586737464_0080
+2020-09-20 16:18:51,628 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Hadoop job information for Stage-2: number of mappers: 2; number of reducers: 2
+2020-09-20 16:18:51,656 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:18:51,655 Stage-2 map = 0%,  reduce = 0%
+2020-09-20 16:18:59,944 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:18:59,943 Stage-2 map = 50%,  reduce = 0%, Cumulative CPU 10.08 sec
+2020-09-20 16:19:06,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 1 should running, 1 actual running, 0 stopped, 0 ready, 10 already succeed, 1 error, 0 discarded, 0 others
+2020-09-20 16:19:08,253 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:08,252 Stage-2 map = 62%,  reduce = 0%, Cumulative CPU 42.01 sec
+2020-09-20 16:19:10,335 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:10,335 Stage-2 map = 62%,  reduce = 8%, Cumulative CPU 43.49 sec
+2020-09-20 16:19:11,395 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:11,395 Stage-2 map = 62%,  reduce = 17%, Cumulative CPU 51.64 sec
+2020-09-20 16:19:16,566 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:16,566 Stage-2 map = 74%,  reduce = 17%, Cumulative CPU 64.03 sec
+2020-09-20 16:19:25,883 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:25,883 Stage-2 map = 92%,  reduce = 17%, Cumulative CPU 81.73 sec
+2020-09-20 16:19:27,953 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:27,953 Stage-2 map = 100%,  reduce = 17%, Cumulative CPU 83.39 sec
+2020-09-20 16:19:28,991 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:28,991 Stage-2 map = 100%,  reduce = 42%, Cumulative CPU 87.5 sec
+2020-09-20 16:19:30,027 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:30,027 Stage-2 map = 100%,  reduce = 67%, Cumulative CPU 95.84 sec
+2020-09-20 16:19:32,120 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:32,120 Stage-2 map = 100%,  reduce = 69%, Cumulative CPU 103.45 sec
+2020-09-20 16:19:33,155 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:33,155 Stage-2 map = 100%,  reduce = 70%, Cumulative CPU 109.13 sec
+2020-09-20 16:19:33,634 INFO  [BadQueryDetector] service.BadQueryDetector:148 : Detect bad query.
+2020-09-20 16:19:35,222 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:35,222 Stage-2 map = 100%,  reduce = 71%, Cumulative CPU 114.08 sec
+2020-09-20 16:19:36,256 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:36,256 Stage-2 map = 100%,  reduce = 73%, Cumulative CPU 119.33 sec
+2020-09-20 16:19:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 1 should running, 1 actual running, 0 stopped, 0 ready, 10 already succeed, 1 error, 0 discarded, 0 others
+2020-09-20 16:19:38,324 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:38,324 Stage-2 map = 100%,  reduce = 76%, Cumulative CPU 128.36 sec
+2020-09-20 16:19:40,402 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:40,402 Stage-2 map = 100%,  reduce = 77%, Cumulative CPU 132.8 sec
+2020-09-20 16:19:41,436 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:41,436 Stage-2 map = 100%,  reduce = 79%, Cumulative CPU 137.34 sec
+2020-09-20 16:19:43,503 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:43,503 Stage-2 map = 100%,  reduce = 80%, Cumulative CPU 141.96 sec
+2020-09-20 16:19:44,541 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:44,541 Stage-2 map = 100%,  reduce = 81%, Cumulative CPU 146.5 sec
+2020-09-20 16:19:46,607 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:46,606 Stage-2 map = 100%,  reduce = 83%, Cumulative CPU 151.26 sec
+2020-09-20 16:19:47,638 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:47,637 Stage-2 map = 100%,  reduce = 84%, Cumulative CPU 155.94 sec
+2020-09-20 16:19:49,702 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:49,702 Stage-2 map = 100%,  reduce = 86%, Cumulative CPU 160.35 sec
+2020-09-20 16:19:50,733 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:50,732 Stage-2 map = 100%,  reduce = 87%, Cumulative CPU 164.92 sec
+2020-09-20 16:19:52,816 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:52,816 Stage-2 map = 100%,  reduce = 89%, Cumulative CPU 169.38 sec
+2020-09-20 16:19:53,849 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:53,849 Stage-2 map = 100%,  reduce = 90%, Cumulative CPU 174.91 sec
+2020-09-20 16:19:55,911 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:55,911 Stage-2 map = 100%,  reduce = 92%, Cumulative CPU 180.17 sec
+2020-09-20 16:19:56,945 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:56,945 Stage-2 map = 100%,  reduce = 93%, Cumulative CPU 184.67 sec
+2020-09-20 16:19:59,006 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:19:59,005 Stage-2 map = 100%,  reduce = 94%, Cumulative CPU 189.54 sec
+2020-09-20 16:20:00,037 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:20:00,037 Stage-2 map = 100%,  reduce = 96%, Cumulative CPU 194.16 sec
+2020-09-20 16:20:02,102 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:20:02,102 Stage-2 map = 100%,  reduce = 97%, Cumulative CPU 198.65 sec
+2020-09-20 16:20:03,132 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:20:03,132 Stage-2 map = 100%,  reduce = 99%, Cumulative CPU 203.1 sec
+2020-09-20 16:20:04,165 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : 2020-09-20 16:20:04,165 Stage-2 map = 100%,  reduce = 100%, Cumulative CPU 207.21 sec
+2020-09-20 16:20:05,199 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : MapReduce Total cumulative CPU time: 3 minutes 27 seconds 210 msec
+2020-09-20 16:20:05,222 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Ended Job = job_1600586737464_0080
+2020-09-20 16:20:05,238 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Loading data to table default.kylin_intermediate_tpch_s1_join_3_tables_9e627ccd_961d_f4b4_5c4c_df6dffe9be13
+2020-09-20 16:20:05,444 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Table default.kylin_intermediate_tpch_s1_join_3_tables_9e627ccd_961d_f4b4_5c4c_df6dffe9be13 stats: [numFiles=0, numRows=6001215, totalSize=0, rawDataSize=203705549]
+2020-09-20 16:20:05,445 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : MapReduce Jobs Launched: 
+2020-09-20 16:20:05,445 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Stage-Stage-9: Map: 3   Cumulative CPU: 99.74 sec   HDFS Read: 759908364 HDFS Write: 314844965 SUCCESS
+2020-09-20 16:20:05,446 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Stage-Stage-2: Map: 2  Reduce: 2   Cumulative CPU: 207.21 sec   HDFS Read: 486826099 HDFS Write: 329871818 SUCCESS
+2020-09-20 16:20:05,446 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Total MapReduce CPU Time Spent: 5 minutes 6 seconds 950 msec
+2020-09-20 16:20:05,446 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : OK
+2020-09-20 16:20:05,450 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:41 : Time taken: 112.381 seconds
+2020-09-20 16:20:05,582 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] hive.CreateFlatHiveTableStep:68 : HDFS_Bytes_Writen: 329871508
+2020-09-20 16:20:05,594 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] execution.ExecutableManager:479 : job id:b53b98f0-60d5-45ff-7c28-99ce0c233f04-00 from RUNNING to SUCCEED
+2020-09-20 16:20:05,598 DEBUG [pool-5-thread-1] cachesync.Broadcaster:119 : Servers in the cluster: [localhost:7070]
+2020-09-20 16:20:05,598 DEBUG [pool-5-thread-1] cachesync.Broadcaster:129 : Announcing new broadcast to all: BroadcastEvent{entity=execute_output, event=update, cacheKey=b53b98f0-60d5-45ff-7c28-99ce0c233f04}
+2020-09-20 16:20:05,607 DEBUG [http-bio-7070-exec-5] cachesync.Broadcaster:267 : Broadcasting UPDATE, execute_output, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:20:05,614 DEBUG [http-bio-7070-exec-5] cachesync.Broadcaster:301 : Done broadcasting UPDATE, execute_output, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:20:05,622 DEBUG [pool-5-thread-1] cachesync.Broadcaster:119 : Servers in the cluster: [localhost:7070]
+2020-09-20 16:20:05,622 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-166] execution.ExecutableManager:479 : job id:b53b98f0-60d5-45ff-7c28-99ce0c233f04 from RUNNING to READY
+2020-09-20 16:20:05,622 DEBUG [pool-5-thread-1] cachesync.Broadcaster:129 : Announcing new broadcast to all: BroadcastEvent{entity=execute_output, event=update, cacheKey=b53b98f0-60d5-45ff-7c28-99ce0c233f04}
+2020-09-20 16:20:05,625 INFO  [FetcherRunner 1922151512-57] threadpool.FetcherRunner:65 : CubingJob{id=b53b98f0-60d5-45ff-7c28-99ce0c233f04, name=BUILD CUBE - tpch_s1_join_3_tables - FULL_BUILD - UTC 2020-09-20 16:17:47, state=READY} prepare to schedule and its priority is 20
+2020-09-20 16:20:05,626 INFO  [FetcherRunner 1922151512-57] threadpool.FetcherRunner:69 : CubingJob{id=b53b98f0-60d5-45ff-7c28-99ce0c233f04, name=BUILD CUBE - tpch_s1_join_3_tables - FULL_BUILD - UTC 2020-09-20 16:17:47, state=READY} scheduled
+2020-09-20 16:20:05,626 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 1 actual running, 0 stopped, 1 ready, 10 already succeed, 1 error, 0 discarded, 0 others
+2020-09-20 16:20:05,627 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] execution.AbstractExecutable:161 : Executing AbstractExecutable (BUILD CUBE - tpch_s1_join_3_tables - FULL_BUILD - UTC 2020-09-20 16:17:47)
+2020-09-20 16:20:05,627 DEBUG [http-bio-7070-exec-5] cachesync.Broadcaster:267 : Broadcasting UPDATE, execute_output, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:20:05,628 DEBUG [http-bio-7070-exec-5] cachesync.Broadcaster:301 : Done broadcasting UPDATE, execute_output, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:20:05,630 DEBUG [pool-5-thread-1] cachesync.Broadcaster:119 : Servers in the cluster: [localhost:7070]
+2020-09-20 16:20:05,630 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] execution.ExecutableManager:479 : job id:b53b98f0-60d5-45ff-7c28-99ce0c233f04 from READY to RUNNING
+2020-09-20 16:20:05,630 DEBUG [pool-5-thread-1] cachesync.Broadcaster:129 : Announcing new broadcast to all: BroadcastEvent{entity=execute_output, event=update, cacheKey=b53b98f0-60d5-45ff-7c28-99ce0c233f04}
+2020-09-20 16:20:05,633 DEBUG [pool-5-thread-1] cachesync.Broadcaster:119 : Servers in the cluster: [localhost:7070]
+2020-09-20 16:20:05,633 DEBUG [pool-5-thread-1] cachesync.Broadcaster:129 : Announcing new broadcast to all: BroadcastEvent{entity=execute_output, event=update, cacheKey=b53b98f0-60d5-45ff-7c28-99ce0c233f04}
+2020-09-20 16:20:05,634 DEBUG [http-bio-7070-exec-5] cachesync.Broadcaster:267 : Broadcasting UPDATE, execute_output, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:20:05,635 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] execution.AbstractExecutable:161 : Executing AbstractExecutable (Extract Fact Table Distinct Columns)
+2020-09-20 16:20:05,635 DEBUG [http-bio-7070-exec-5] cachesync.Broadcaster:301 : Done broadcasting UPDATE, execute_output, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:20:05,637 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] execution.ExecutableManager:479 : job id:b53b98f0-60d5-45ff-7c28-99ce0c233f04-01 from READY to RUNNING
+2020-09-20 16:20:05,641 DEBUG [http-bio-7070-exec-5] cachesync.Broadcaster:267 : Broadcasting UPDATE, execute_output, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:20:05,642 DEBUG [http-bio-7070-exec-5] cachesync.Broadcaster:301 : Done broadcasting UPDATE, execute_output, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:20:05,704 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] common.MapReduceExecutable:141 : parameters of the MapReduceExecutable:  -conf /home/admin/apache-kylin-3.1.0-bin-hbase1x/conf/kylin_job_conf.xml -cubename tpch_s1_join_3_tables -output hdfs://localhost:9000/kylin/kylin_metadata/kylin-b53b98f0-60d5-45ff-7c28-99ce0c233f04/tpch_s1_join_3_tables/fact_distinct_columns -segmentid 9e627ccd-961d-f4b4-5c4c-df6dffe9be13 -statisticsoutput hdfs://localhost:9000/kylin/kylin_metadata/kylin-b53b98f0-60d5-45ff-7c28-99ce0c233f04/tpch_s1_join_3_tables/fact_distinct_columns/statistics -statisticssamplingpercent 100 -jobname Kylin_Fact_Distinct_Columns_tpch_s1_join_3_tables_Step -cubingJobId b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:20:05,704 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] steps.FactDistinctColumnsJob:100 : Starting: Kylin_Fact_Distinct_Columns_tpch_s1_join_3_tables_Step
+2020-09-20 16:20:05,704 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] common.AbstractHadoopJob:227 : Didn't find mapreduce.application.classpath in job configuration, will run 'mapred classpath' to get the default value.
+2020-09-20 16:20:05,814 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] common.AbstractHadoopJob:230 : The default mapred classpath is: /home/admin/hadoop-2.7.0/etc/hadoop,/home/admin/hadoop-2.7.0/share/hadoop/common/lib/*,/home/admin/hadoop-2.7.0/share/hadoop/common/*,/home/admin/hadoop-2.7.0/share/hadoop/hdfs,/home/admin/hadoop-2.7.0/share/hadoop/hdfs/lib/*,/home/admin/hadoop-2.7.0/share/hadoop/hdfs/*,/home/admin/hadoop-2.7.0/share/hadoop/yarn/lib/*,/home/admin/hadoop-2.7.0/share/hadoop/yarn/*,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/*,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/*,/home/admin/hadoop-2.7.0/contrib/capacity-scheduler/*.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/hadoop-mapreduce-client-app-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.7.0-tests.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/hadoop-mapreduce-client-shuffle-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/yarn/hadoop-yarn-api-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/yarn/hadoop-yarn-applications-distributedshell-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/yarn/hadoop-yarn-applications-unmanaged-am-launcher-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/yarn/hadoop-yarn-client-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/yarn/hadoop-yarn-common-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/yarn/hadoop-yarn-registry-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/yarn/hadoop-yarn-server-applicationhistoryservice-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/yarn/hadoop-yarn-server-common-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/yarn/hadoop-yarn-server-nodemanager-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/yarn/hadoop-yarn-server-resourcemanager-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/yarn/hadoop-yarn-server-sharedcachemanager-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/yarn/hadoop-yarn-server-tests-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/yarn/hadoop-yarn-server-web-proxy-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/aopalliance-1.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/asm-3.2.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/avro-1.7.4.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/commons-compress-1.4.1.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/commons-io-2.4.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/guice-3.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/guice-servlet-3.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/hadoop-annotations-2.7.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/hamcrest-core-1.3.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/jackson-core-asl-1.9.13.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/jackson-mapper-asl-1.9.13.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/javax.inject-1.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/jersey-core-1.9.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/jersey-guice-1.9.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/jersey-server-1.9.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/junit-4.11.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/leveldbjni-all-1.8.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/log4j-1.2.17.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/netty-3.6.2.Final.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/paranamer-2.3.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/protobuf-java-2.5.0.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/snappy-java-1.0.4.1.jar,/home/admin/hadoop-2.7.0/share/hadoop/mapreduce/lib/xz-1.0.jar,/home/admin/hadoop-2.7.0/modules/*.jar
+2020-09-20 16:20:06,090 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] steps.FactDistinctColumnsJob:138 : org.apache.kylin.engine.mr.steps.FactDistinctColumnsJob has reducers 5.
+2020-09-20 16:20:06,373 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] common.KylinConfigBase:237 : Kylin Config was updated with kylin.metadata.url : /home/admin/apache-kylin-3.1.0-bin-hbase1x/bin/../tomcat/temp/kylin_job_meta7663847932114840690/meta
+2020-09-20 16:20:06,374 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] persistence.ResourceStore:90 : Using metadata url /home/admin/apache-kylin-3.1.0-bin-hbase1x/bin/../tomcat/temp/kylin_job_meta7663847932114840690/meta for resource store
+2020-09-20 16:20:06,383 DEBUG [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] common.JobRelatedMetaUtil:78 : Dump resources to /home/admin/apache-kylin-3.1.0-bin-hbase1x/bin/../tomcat/temp/kylin_job_meta7663847932114840690/meta took 10 ms
+2020-09-20 16:20:06,383 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] common.AbstractHadoopJob:627 : HDFS meta dir is: file:///home/admin/apache-kylin-3.1.0-bin-hbase1x/bin/../tomcat/temp/kylin_job_meta7663847932114840690/meta
+2020-09-20 16:20:06,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 1 should running, 1 actual running, 0 stopped, 0 ready, 10 already succeed, 1 error, 0 discarded, 0 others
+2020-09-20 16:20:06,846 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] common.AbstractHadoopJob:634 : tmpFilesString is : file:///home/admin/apache-kylin-3.1.0-bin-hbase1x/bin/../tomcat/temp/kylin_job_meta7663847932114840690/meta
+2020-09-20 16:20:33,634 INFO  [BadQueryDetector] service.BadQueryDetector:148 : Detect bad query.
+2020-09-20 16:20:34,209 DEBUG [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:142 : 
+========================================================================= 10
+2020-09-20 16:20:34,209 TRACE [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:530 : Dump JobCheckList:	
+2020-09-20 16:20:34,210 DEBUG [streaming_job_submitter-thread-1] coordinator.ZookeeperStreamMetadataStore:673 : [StreamMetadataStoreStats]  read : 2 ; write: 1 ; read failed: 0 ; write failed: 0 .
+2020-09-20 16:20:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 1 should running, 1 actual running, 0 stopped, 0 ready, 10 already succeed, 1 error, 0 discarded, 0 others
+2020-09-20 16:21:06,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 1 should running, 1 actual running, 0 stopped, 0 ready, 10 already succeed, 1 error, 0 discarded, 0 others
+2020-09-20 16:21:33,634 INFO  [BadQueryDetector] service.BadQueryDetector:148 : Detect bad query.
+2020-09-20 16:21:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 1 should running, 1 actual running, 0 stopped, 0 ready, 10 already succeed, 1 error, 0 discarded, 0 others
+2020-09-20 16:22:06,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 1 should running, 1 actual running, 0 stopped, 0 ready, 10 already succeed, 1 error, 0 discarded, 0 others
+2020-09-20 16:22:17,267 DEBUG [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] common.HadoopCmdOutput:100 : Counters: 52
+	File System Counters
+		FILE: Number of bytes read=283935
+		FILE: Number of bytes written=6125609
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=329880982
+		HDFS: Number of bytes written=276124
+		HDFS: Number of read operations=28
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=11
+	Job Counters 
+		Failed reduce tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Launched reduce tasks=9
+		Data-local map tasks=4
+		Total time spent by all maps in occupied slots (ms)=115691
+		Total time spent by all reduces in occupied slots (ms)=171631
+		Total time spent by all map tasks (ms)=115691
+		Total time spent by all reduce tasks (ms)=171631
+		Total vcore-seconds taken by all map tasks=115691
+		Total vcore-seconds taken by all reduce tasks=171631
+		Total megabyte-seconds taken by all map tasks=118467584
+		Total megabyte-seconds taken by all reduce tasks=175750144
+	Map-Reduce Framework
+		Map input records=6001215
+		Map output records=7816871
+		Map output bytes=66109124
+		Map output materialized bytes=4099022
+		Input split bytes=6884
+		Combine input records=7816871
+		Combine output records=1540081
+		Reduce input groups=10020
+		Reduce shuffle bytes=415669
+		Reduce input records=40080
+		Reduce output records=0
+		Spilled Records=1580161
+		Shuffled Maps =16
+		Failed Shuffles=0
+		Merged Map outputs=16
+		GC time elapsed (ms)=11161
+		CPU time spent (ms)=347810
+		Physical memory (bytes) snapshot=2677379072
+		Virtual memory (bytes) snapshot=17702469632
+		Total committed heap usage (bytes)=1414529024
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=0
+	org.apache.kylin.engine.mr.steps.FactDistinctColumnsMapper$RawDataCounter
+		BYTES=209706764
+2020-09-20 16:22:17,267 DEBUG [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] common.HadoopCmdOutput:107 : outputFolder is hdfs://localhost:9000/kylin/kylin_metadata/kylin-b53b98f0-60d5-45ff-7c28-99ce0c233f04/tpch_s1_join_3_tables/fact_distinct_columns
+2020-09-20 16:22:17,270 WARN  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] common.HadoopCmdOutput:119 : Job Diagnostics:Task failed task_1600586737464_0081_r_000000
+Job failed as tasks failed. failedMaps:0 failedReduces:1
+
+2020-09-20 16:22:17,343 WARN  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] common.HadoopCmdOutput:124 : Failure task Diagnostics:
+2020-09-20 16:22:17,344 WARN  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] common.HadoopCmdOutput:127 : Error: Java heap space
+2020-09-20 16:22:17,344 WARN  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] common.HadoopCmdOutput:127 : Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+2020-09-20 16:22:17,353 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] execution.ExecutableManager:479 : job id:b53b98f0-60d5-45ff-7c28-99ce0c233f04-01 from RUNNING to ERROR
+2020-09-20 16:22:17,354 ERROR [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] execution.AbstractExecutable:180 : error running Executable: CubingJob{id=b53b98f0-60d5-45ff-7c28-99ce0c233f04, name=BUILD CUBE - tpch_s1_join_3_tables - FULL_BUILD - UTC 2020-09-20 16:17:47, state=RUNNING}
+2020-09-20 16:22:17,357 DEBUG [pool-5-thread-1] cachesync.Broadcaster:119 : Servers in the cluster: [localhost:7070]
+2020-09-20 16:22:17,358 DEBUG [pool-5-thread-1] cachesync.Broadcaster:129 : Announcing new broadcast to all: BroadcastEvent{entity=execute_output, event=update, cacheKey=b53b98f0-60d5-45ff-7c28-99ce0c233f04}
+2020-09-20 16:22:17,360 DEBUG [pool-5-thread-1] cachesync.Broadcaster:119 : Servers in the cluster: [localhost:7070]
+2020-09-20 16:22:17,360 INFO  [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] execution.ExecutableManager:479 : job id:b53b98f0-60d5-45ff-7c28-99ce0c233f04 from RUNNING to ERROR
+2020-09-20 16:22:17,361 DEBUG [pool-5-thread-1] cachesync.Broadcaster:129 : Announcing new broadcast to all: BroadcastEvent{entity=execute_output, event=update, cacheKey=b53b98f0-60d5-45ff-7c28-99ce0c233f04}
+2020-09-20 16:22:17,361 DEBUG [Scheduler 1655160543 Job b53b98f0-60d5-45ff-7c28-99ce0c233f04-170] execution.AbstractExecutable:331 : no need to send email, user list is empty
+2020-09-20 16:22:17,362 ERROR [pool-9-thread-4] threadpool.DefaultScheduler:116 : ExecuteException job:b53b98f0-60d5-45ff-7c28-99ce0c233f04
+org.apache.kylin.job.exception.ExecuteException: org.apache.kylin.job.exception.ExecuteException: org.apache.kylin.engine.mr.exception.MapReduceException: Counters: 52
+	File System Counters
+		FILE: Number of bytes read=283935
+		FILE: Number of bytes written=6125609
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=329880982
+		HDFS: Number of bytes written=276124
+		HDFS: Number of read operations=28
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=11
+	Job Counters 
+		Failed reduce tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Launched reduce tasks=9
+		Data-local map tasks=4
+		Total time spent by all maps in occupied slots (ms)=115691
+		Total time spent by all reduces in occupied slots (ms)=171631
+		Total time spent by all map tasks (ms)=115691
+		Total time spent by all reduce tasks (ms)=171631
+		Total vcore-seconds taken by all map tasks=115691
+		Total vcore-seconds taken by all reduce tasks=171631
+		Total megabyte-seconds taken by all map tasks=118467584
+		Total megabyte-seconds taken by all reduce tasks=175750144
+	Map-Reduce Framework
+		Map input records=6001215
+		Map output records=7816871
+		Map output bytes=66109124
+		Map output materialized bytes=4099022
+		Input split bytes=6884
+		Combine input records=7816871
+		Combine output records=1540081
+		Reduce input groups=10020
+		Reduce shuffle bytes=415669
+		Reduce input records=40080
+		Reduce output records=0
+		Spilled Records=1580161
+		Shuffled Maps =16
+		Failed Shuffles=0
+		Merged Map outputs=16
+		GC time elapsed (ms)=11161
+		CPU time spent (ms)=347810
+		Physical memory (bytes) snapshot=2677379072
+		Virtual memory (bytes) snapshot=17702469632
+		Total committed heap usage (bytes)=1414529024
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=0
+	org.apache.kylin.engine.mr.steps.FactDistinctColumnsMapper$RawDataCounter
+		BYTES=209706764
+Job Diagnostics:Task failed task_1600586737464_0081_r_000000
+Job failed as tasks failed. failedMaps:0 failedReduces:1
+
+Failure task Diagnostics:
+Error: Java heap space
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+
+	at org.apache.kylin.job.execution.AbstractExecutable.execute(AbstractExecutable.java:193)
+	at org.apache.kylin.job.impl.threadpool.DefaultScheduler$JobRunner.run(DefaultScheduler.java:114)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.kylin.job.exception.ExecuteException: org.apache.kylin.engine.mr.exception.MapReduceException: Counters: 52
+	File System Counters
+		FILE: Number of bytes read=283935
+		FILE: Number of bytes written=6125609
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=329880982
+		HDFS: Number of bytes written=276124
+		HDFS: Number of read operations=28
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=11
+	Job Counters 
+		Failed reduce tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Launched reduce tasks=9
+		Data-local map tasks=4
+		Total time spent by all maps in occupied slots (ms)=115691
+		Total time spent by all reduces in occupied slots (ms)=171631
+		Total time spent by all map tasks (ms)=115691
+		Total time spent by all reduce tasks (ms)=171631
+		Total vcore-seconds taken by all map tasks=115691
+		Total vcore-seconds taken by all reduce tasks=171631
+		Total megabyte-seconds taken by all map tasks=118467584
+		Total megabyte-seconds taken by all reduce tasks=175750144
+	Map-Reduce Framework
+		Map input records=6001215
+		Map output records=7816871
+		Map output bytes=66109124
+		Map output materialized bytes=4099022
+		Input split bytes=6884
+		Combine input records=7816871
+		Combine output records=1540081
+		Reduce input groups=10020
+		Reduce shuffle bytes=415669
+		Reduce input records=40080
+		Reduce output records=0
+		Spilled Records=1580161
+		Shuffled Maps =16
+		Failed Shuffles=0
+		Merged Map outputs=16
+		GC time elapsed (ms)=11161
+		CPU time spent (ms)=347810
+		Physical memory (bytes) snapshot=2677379072
+		Virtual memory (bytes) snapshot=17702469632
+		Total committed heap usage (bytes)=1414529024
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=0
+	org.apache.kylin.engine.mr.steps.FactDistinctColumnsMapper$RawDataCounter
+		BYTES=209706764
+Job Diagnostics:Task failed task_1600586737464_0081_r_000000
+Job failed as tasks failed. failedMaps:0 failedReduces:1
+
+Failure task Diagnostics:
+Error: Java heap space
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+
+	at org.apache.kylin.job.execution.AbstractExecutable.execute(AbstractExecutable.java:193)
+	at org.apache.kylin.job.execution.DefaultChainedExecutable.doWork(DefaultChainedExecutable.java:71)
+	at org.apache.kylin.job.execution.AbstractExecutable.execute(AbstractExecutable.java:178)
+	... 4 more
+Caused by: org.apache.kylin.engine.mr.exception.MapReduceException: Counters: 52
+	File System Counters
+		FILE: Number of bytes read=283935
+		FILE: Number of bytes written=6125609
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=329880982
+		HDFS: Number of bytes written=276124
+		HDFS: Number of read operations=28
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=11
+	Job Counters 
+		Failed reduce tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Launched reduce tasks=9
+		Data-local map tasks=4
+		Total time spent by all maps in occupied slots (ms)=115691
+		Total time spent by all reduces in occupied slots (ms)=171631
+		Total time spent by all map tasks (ms)=115691
+		Total time spent by all reduce tasks (ms)=171631
+		Total vcore-seconds taken by all map tasks=115691
+		Total vcore-seconds taken by all reduce tasks=171631
+		Total megabyte-seconds taken by all map tasks=118467584
+		Total megabyte-seconds taken by all reduce tasks=175750144
+	Map-Reduce Framework
+		Map input records=6001215
+		Map output records=7816871
+		Map output bytes=66109124
+		Map output materialized bytes=4099022
+		Input split bytes=6884
+		Combine input records=7816871
+		Combine output records=1540081
+		Reduce input groups=10020
+		Reduce shuffle bytes=415669
+		Reduce input records=40080
+		Reduce output records=0
+		Spilled Records=1580161
+		Shuffled Maps =16
+		Failed Shuffles=0
+		Merged Map outputs=16
+		GC time elapsed (ms)=11161
+		CPU time spent (ms)=347810
+		Physical memory (bytes) snapshot=2677379072
+		Virtual memory (bytes) snapshot=17702469632
+		Total committed heap usage (bytes)=1414529024
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=0
+	org.apache.kylin.engine.mr.steps.FactDistinctColumnsMapper$RawDataCounter
+		BYTES=209706764
+Job Diagnostics:Task failed task_1600586737464_0081_r_000000
+Job failed as tasks failed. failedMaps:0 failedReduces:1
+
+Failure task Diagnostics:
+Error: Java heap space
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+
+	at org.apache.kylin.engine.mr.common.MapReduceExecutable.doWork(MapReduceExecutable.java:223)
+	at org.apache.kylin.job.execution.AbstractExecutable.execute(AbstractExecutable.java:178)
+	... 6 more
+2020-09-20 16:22:17,364 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
+2020-09-20 16:22:17,364 DEBUG [http-bio-7070-exec-1] cachesync.Broadcaster:267 : Broadcasting UPDATE, execute_output, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:22:17,366 DEBUG [http-bio-7070-exec-1] cachesync.Broadcaster:301 : Done broadcasting UPDATE, execute_output, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:22:17,372 DEBUG [http-bio-7070-exec-1] cachesync.Broadcaster:267 : Broadcasting UPDATE, execute_output, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:22:17,373 DEBUG [http-bio-7070-exec-1] cachesync.Broadcaster:301 : Done broadcasting UPDATE, execute_output, b53b98f0-60d5-45ff-7c28-99ce0c233f04
+2020-09-20 16:22:33,635 INFO  [BadQueryDetector] service.BadQueryDetector:148 : Detect bad query.
+2020-09-20 16:22:34,209 DEBUG [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:142 : 
+========================================================================= 11
+2020-09-20 16:22:34,209 TRACE [streaming_job_submitter-thread-1] coordinate.BuildJobSubmitter:530 : Dump JobCheckList:	
+2020-09-20 16:22:36,587 INFO  [FetcherRunner 1922151512-57] threadpool.DefaultFetcherRunner:115 : Job Fetcher: 0 should running, 0 actual running, 0 stopped, 0 ready, 10 already succeed, 2 error, 0 discarded, 0 others
