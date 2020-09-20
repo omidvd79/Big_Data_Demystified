@@ -3,13 +3,13 @@ echo "docker name is :"+$1
 
 #################################
 #copy files from host to docker
-sudo docker cp  ~/Big_Data_Demystified/tpch-dbgen/lineitem.tbl  $1:/home/admin
-sudo docker cp  ~/Big_Data_Demystified/tpch-dbgen/nation.tbl  $1:/home/admin
-sudo docker cp  ~/Big_Data_Demystified/tpch-dbgen/region.tbl  $1:/home/admin
-sudo docker cp  ~/Big_Data_Demystified/tpch-dbgen/part.tbl  $1:/home/admin
-sudo docker cp  ~/Big_Data_Demystified/tpch-dbgen/supplier.tbl  $1:/home/admin
-sudo docker cp  ~/Big_Data_Demystified/tpch-dbgen/customer.tbl  $1:/home/admin
-sudo docker cp  ~/Big_Data_Demystified/tpch-dbgen/orders.tbl  $1:/home/admin
+sudo docker cp  ~/Big_Data_Demystified/kylin/tpch-dbgen/lineitem.tbl  $1:/home/admin
+sudo docker cp  ~/Big_Data_Demystified/kylin/tpch-dbgen/nation.tbl  $1:/home/admin
+sudo docker cp  ~/Big_Data_Demystified/kylin/tpch-dbgen/region.tbl  $1:/home/admin
+sudo docker cp  ~/Big_Data_Demystified/kylin/tpch-dbgen/part.tbl  $1:/home/admin
+sudo docker cp  ~/Big_Data_Demystified/kylin/tpch-dbgen/supplier.tbl  $1:/home/admin
+sudo docker cp  ~/Big_Data_Demystified/kylin/tpch-dbgen/customer.tbl  $1:/home/admin
+sudo docker cp  ~/Big_Data_Demystified/kylin/tpch-dbgen/orders.tbl  $1:/home/admin
 
 ############################
 #create folder in HDFS in docker
