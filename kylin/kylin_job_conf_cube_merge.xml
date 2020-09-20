@@ -16,11 +16,6 @@
 -->
 <configuration>
     <property>
-        <name>mapreduce.job.is-mem-hungry</name>
-        <value>true</value>
-    </property>
-
-    <property>
         <name>mapreduce.job.split.metainfo.maxsize</name>
         <value>-1</value>
         <description>The maximum permissible size of the split metainfo file.
@@ -70,7 +65,6 @@
         <description>The compression type to use for job outputs</description>
     </property>
 
-
     <property>
         <name>mapreduce.job.max.split.locations</name>
         <value>2000</value>
@@ -79,25 +73,17 @@
 
     <property>
         <name>dfs.replication</name>
-        <value>1</value>
+        <value>2</value>
         <description>Block replication</description>
     </property>
 
     <property>
         <name>mapreduce.task.timeout</name>
-        <value>720000000</value>
+        <value>7200000</value>
         <description>Set task timeout to 1 hour</description>
     </property>
 
-    <property>
-	<name>yarn.scheduler.maximum-allocation-mb</name>
-        <value>64000</value>
-        <description></description>
-    </property>
-    <!--Additional config for in-mem cubing, giving mapper more memory -->
-
-
-
+    <!--Additional config for cube merge job, giving more memory -->
 <property>
 	<name>mapreduce.map.memory.mb</name>
         <value>32000</value>
@@ -119,11 +105,9 @@
         <description>should be 80% of mapreduce.reduce.memory.mb </description>
     </property>
 
-
     <property>
         <name>mapreduce.task.io.sort.mb</name>
-        <value>20000</value>
+        <value>200</value>
         <description></description>
     </property>
-
 </configuration>
