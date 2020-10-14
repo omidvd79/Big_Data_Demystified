@@ -31,7 +31,7 @@
     </property>
     <property>
         <name>yarn.nodemanager.resource.memory-mb</name>
-        <value>61440</value>
+        <value>100000</value>
     </property>
     <property>
         <name>yarn.nodemanager.resource.cpu-vcores</name>
@@ -39,6 +39,6 @@
     </property>
     <property>
 	<name>yarn.scheduler.maximum-allocation-mb</name>
-        <value>999000</value>
+        <value>8000</value>
     </property>
 </configuration>
