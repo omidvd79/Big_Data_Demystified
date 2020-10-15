@@ -5,7 +5,7 @@ Big Data Demystified is a meetup and an effort to share my personal knowledge an
 I’m Omid Vahdaty, a Big Data Ninja and a meetup organizer , a black belt in Taekwondo and a master in skydiving.
 I’m the founder and CTO of Jutomate,a company that  specializes  in end to end data solutions.
 
-I have over 30 years of career experience in helping building systems from the ground up, In startups at all stages from seed level to exit  (SQream. Jajah, etc ) and  in big media organizations (Walla News. Investing.com, etc).
+I have over 20 years of career experience in helping building systems from the ground up, In startups at all stages from seed level to exit  (SQream. Jajah, etc ) and  in big media organizations (Walla News. Investing.com, etc).
 
 I specialize in Big Data Architecture, Product innovation & strategic engineering thinking, while designing the systems in a start up environment, meaning – agile, cost effective and fast learning curve.I enjoy helping and donating my time to good causes such as The Israeli Association for CMV Pregnancy and the Celiac rights organization.
 
