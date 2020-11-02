@@ -7,6 +7,8 @@ sudo apt install -y python3-pip  python-boto3
 #any version higher than 2.1.4 will fail as the project is deprecated, 
 sudo pip3 install pymssql==2.1.4
 
+pip3 install cattrs==1.0.0
+
 sudo pip3 install pystan
 
 sudo pip3 install --upgrade setuptools
