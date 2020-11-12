@@ -23,6 +23,6 @@ sudo -H pip3 install apache-airflow[devel]
 
 sudo pip3 install apache-airflow[all]
 
-pip install botocore
+pip install botocore boto3
 
 echo ***** "Now is the time you run: airflow initdb (if this is a first installation)"
