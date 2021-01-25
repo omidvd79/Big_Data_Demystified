@@ -44,3 +44,5 @@ pip install cx_Oracle==7.3
 
 pip install apache-airflow[all]==1.10.10
 
+echo **** Omid - please add export PATH=$PATH:~/.local/bin to .bashrc
+
