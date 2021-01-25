@@ -40,6 +40,7 @@ sudo cp /usr/lib/python3.7/configparser.py /usr/lib/python3.7/ConfigParser.py
 
 pip install cx_Oracle==7.3
 
+sudo apt install -y default-mysql-client #GCP debian
 
 
 pip install apache-airflow[all]==1.10.10
