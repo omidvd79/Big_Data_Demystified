@@ -43,7 +43,7 @@ pip install cx_Oracle==7.3
 sudo apt install -y default-mysql-client #GCP debian
 
 
-pip install apache-airflow[all]==1.10.10
+pip install apache-airflow[core]==1.10.10
 
 echo **** Omid - please add export PATH=$PATH:~/.local/bin to .bashrc
 
