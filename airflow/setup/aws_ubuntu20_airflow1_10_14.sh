@@ -11,6 +11,9 @@ echo "***************************** Manual steps belows************************"
 echo "1. update bashrc to contain path to PATH=$PATH:~/.local/bin"
 echo "2. airflow db init"
 echo "3. create user"
+echo "4. start airflow web server + scheduler"
+
+#example on how to create airflow user.
 #airflow users create \
 #          --username admin \
 #          --firstname FIRST_NAME \
