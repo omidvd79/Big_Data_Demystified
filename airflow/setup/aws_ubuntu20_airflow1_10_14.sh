@@ -1,3 +1,4 @@
+#assuming AWS unutnu 20 package
 sudo apt-get -y update
 sudo apt-get -y install build-essential
 #default python is 3.8.5
