@@ -8,7 +8,7 @@ pip3 install "apache-airflow==${AIRFLOW_VERSION}" --constraint  https://raw.gith
 
 #manual steps:
 echo "***************************** Manual steps belows************************"
-echo "1. update bashrc to contain path to "PATH=$PATH:~/.local/bin" via  nano ~/.basrch/ , add the path, save, and then exit and type "bash".
+echo "1. update bashrc to contain path to "export PATH=$PATH:~/.local/bin" via nano ~/.bashrc, add the path, save, and then exit and type "bash".
 echo "2. airflow db init"
 echo "3. create user (example inside the script with in comment"
 echo "4. start airflow web server + scheduler"
