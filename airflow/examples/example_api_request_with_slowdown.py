@@ -27,7 +27,6 @@ with DAG(
 	start >> dummy_prev
 
 	for request in myList:
-     	# SET VARIABLE SELLER
 		omid = DummyOperator(task_id=f'omid-{request}',dag=dag)
 		if rows_count == num_rows:
 			rows_count = 0
