@@ -6,6 +6,10 @@ sudo apt -y install python3-pip
 AIRFLOW_VERSION=2.3.3
 pip3 install "apache-airflow==${AIRFLOW_VERSION}" --constraint  https://raw.githubusercontent.com/apache/airflow/constraints-2.3.3/constraints-3.9.txt
 
+#adding google operators (notice it may break due to versining):
+pip install apache-airflow-providers-google
+
+
 #manual steps:
 echo "***************************** Manual steps belows************************"
 echo "1. update bashrc to contain path to "export PATH=$PATH:~/.local/bin" via nano ~/.bashrc, add the path, save, and then exit and type "bash".
