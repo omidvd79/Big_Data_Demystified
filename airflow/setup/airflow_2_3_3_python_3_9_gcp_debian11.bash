@@ -9,6 +9,11 @@ pip3 install "apache-airflow==${AIRFLOW_VERSION}" --constraint  https://raw.gith
 #adding google operators (notice it may break due to versining):
 pip install apache-airflow-providers-google
 
+#addition to support AWS RDS Aurora
+sudo apt-get install python3-dev default-libmysqlclient-dev build-essential
+pip install mysqlclient
+
+
 
 #manual steps:
 echo "***************************** Manual steps belows************************"
