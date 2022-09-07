@@ -16,12 +16,12 @@ pip install mysqlclient
 
 
 #manual steps:
-echo "***************************** Manual steps belows************************"
-echo "1. update bashrc to contain path to "export PATH=$PATH:~/.local/bin" via nano ~/.bashrc, add the path, save, and then exit and type "bash".
-echo "2. airflow db init"
-echo "3. create user (example inside the script with in comment"
-echo "4. start airflow web server + scheduler"
-echo "5. make sure GCE firewall is on open on HTTP / HTTPS port 8080"
+#echo "***************************** Manual steps belows************************"
+#echo "1. update bashrc to contain path to "export PATH=$PATH:~/.local/bin" via nano ~/.bashrc, add the path, save, and then exit and type "bash".
+#echo "2. airflow db init"
+#echo "3. create user (example inside the script with in comment"
+#echo "4. start airflow web server + scheduler"
+#echo "5. make sure GCE firewall is on open on HTTP / HTTPS port 8080"
 #example on how to create airflow user.
 #airflow users create \
 #          --username admin \
