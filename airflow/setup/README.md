@@ -36,8 +36,8 @@ airflow users create  --username admin  --firstname FIRST_NAME  --lastname LAST_
 sh ~/start_airflow.sh
 
 10. for Local Executor , install CloudSQL MySQL seperatly (1 CPI, 3.75 RAM, 10GD SSD, Private LAN+ PUBLIC LAN) , dont forget to the flag: 
-
-explicit_defaults_for_timestamp=1
+10.1 explicit_defaults_for_timestamp=1
+10.2 add airflow database+ airflow user+ with access to any ip
 
 11. in airflow.cfg replace the sql_alchemy_conn connection:
 
