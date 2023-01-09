@@ -28,6 +28,11 @@ airflow users create  --username admin  --firstname FIRST_NAME  --lastname LAST_
 8. make sure port 8080 is open in the machine to your IP:
 
 9. start airflow using our bash script (be sure to understand the script):
-sh ~/start_airflow.sh 
+sh ~/start_airflow.sh
+
+10. for Local Executor , install CloudSQL MySQL seperatly (1 CPI, 3.75 RAM, 10GD SSD, Private LAN+ PUBLIC LAN) , dont forget to the flag: 
+explicit_defaults_for_timestamp=1
+ 
+
 
 
