@@ -56,9 +56,16 @@ to
 
 executor = LocalExecutor
 
-13. re-run airlfow db init
+13. re-run:
 
-14. check app is running
+airlfow db init
+
+14. re-create airlfow user iva: 
+
+airflow users create --username admin --firstname FIRST_NAME --lastname LAST_NAME --role Admin --email admin@example.org
+
+15. have fun - noice the airflow will be available on http://gce_public_ip:8080
+
 
 
  
