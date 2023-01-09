@@ -43,6 +43,20 @@ explicit_defaults_for_timestamp=1
 
 sql_alchemy_conn = mysql://{USERNAME}:{PASSWORD}@{MYSQL_PRIVATE_IP}:3306/airflow
 
+for example:
+
+sql_alchemy_conn = mysql://airflow:airflow@10.128.0.2:3306/airflow
+
+12. change in airflow.cfg from
+
+executor = SequentialExecutor
+
+to
+
+executor = LocalExecutor
+
+
+
 
  
 
