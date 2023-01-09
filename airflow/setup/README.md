@@ -56,7 +56,9 @@ to
 
 executor = LocalExecutor
 
+13. re-run airlfow db init
 
+14. check app is running
 
 
  
