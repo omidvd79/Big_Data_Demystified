@@ -40,6 +40,7 @@ sh ~/start_airflow.sh
 explicit_defaults_for_timestamp=1
 
 11. in airflow.cfg replace the sql_alchemy_conn connection to:
+
 sql_alchemy_conn = mysql://{USERNAME}:{PASSWORD}@{MYSQL_PRIVATE_IP}:3306/airflow
 
 
