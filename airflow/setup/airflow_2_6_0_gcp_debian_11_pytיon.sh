@@ -8,7 +8,7 @@ sudo apt-get -y update
 sudo apt-get -y install build-essential
 #default python is 3.9
 sudo apt -y install python3-pip
-AIRFLOW_VERSION=2.6.0
+export AIRFLOW_VERSION=2.6.0
 pip3 install "apache-airflow==${AIRFLOW_VERSION}" --constraint  https://raw.githubusercontent.com/apache/airflow/constraints-2.6.0/constraints-3.8.txt
 
 #adding google operators (notice it may break due to versining):
