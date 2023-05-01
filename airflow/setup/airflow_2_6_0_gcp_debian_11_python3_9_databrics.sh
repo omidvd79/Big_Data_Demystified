@@ -37,9 +37,4 @@ mkdir -p ~/airflow/dags
 #echo "4. start airflow web server + scheduler"
 #echo "5. make sure GCE firewall is on open on HTTP / HTTPS port 8080"
 #example on how to create airflow user.
-#airflow users create \
-#          --username admin \
-#          --firstname FIRST_NAME \
-#          --lastname LAST_NAME \
-#          --role Admin \
-#          --email admin@example.org
+#airflow users create --username admin --firstname FIRST_NAME --lastname LAST_NAME --role Admin --email admin@example.org
