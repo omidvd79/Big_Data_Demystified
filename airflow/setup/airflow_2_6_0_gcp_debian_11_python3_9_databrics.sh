@@ -25,7 +25,9 @@ pip install  apache-airflow-providers-databricks
 #mkdir ~/gs_logs
 #nano start_airflow.sh
 #chmod 777 start_airflow.sh 
-   
+
+#add airflow dags folder 
+mkdir -p ~/airflow/dags   
 
 #manual steps:
 #echo "***************************** Manual steps belows************************"
