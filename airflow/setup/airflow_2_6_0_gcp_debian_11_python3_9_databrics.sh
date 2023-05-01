@@ -18,6 +18,9 @@ pip install apache-airflow-providers-google
 sudo apt-get -y install python3-dev default-libmysqlclient-dev build-essential
 pip install mysqlclient
 
+#addition to databricks
+pip install  apache-airflow-providers-databricks
+
 ## add logs 
 #mkdir ~/gs_logs
 #nano start_airflow.sh
