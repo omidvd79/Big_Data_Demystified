@@ -18,7 +18,11 @@ pip install apache-airflow-providers-google
 sudo apt-get -y install python3-dev default-libmysqlclient-dev build-essential
 pip install mysqlclient
 
-
+## add logs 
+#mkdir ~/gs_logs
+#nano start_airflow.sh
+#chmod 777 start_airflow.sh 
+   
 
 #manual steps:
 #echo "***************************** Manual steps belows************************"
