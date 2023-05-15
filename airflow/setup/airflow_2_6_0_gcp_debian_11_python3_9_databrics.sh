@@ -28,8 +28,10 @@ pip install  apache-airflow-providers-databricks
 
 #add airflow dags folder 
 mkdir -p ~/airflow/dags   
+mkdir -p ~/gs_logs/
 
 echo 'export PATH=$PATH:~/.local/bin' >> ~/.bashrc
+airflow db init
 
 #manual steps:
 #echo "***************************** Manual steps belows************************"
