@@ -29,6 +29,8 @@ pip install  apache-airflow-providers-databricks
 #add airflow dags folder 
 mkdir -p ~/airflow/dags   
 
+echo 'export PATH=$PATH:~/.local/bin' >> ~/.bashrc
+
 #manual steps:
 #echo "***************************** Manual steps belows************************"
 #echo "1. update bashrc to contain path to "export PATH=$PATH:~/.local/bin" via nano ~/.bashrc, add the path, save, and then exit and type "bash".
