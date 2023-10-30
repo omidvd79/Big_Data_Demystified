@@ -41,5 +41,6 @@ airflow db init
 #echo "4. start airflow web server + scheduler"
 #echo "5. make sure GCE firewall is on open on HTTP / HTTPS port 8080"
 #example on how to create airflow user.
-# setup configuration: sql_alchemy_conn = mysql://{USERNAME}:{PASSWORD}@{MYSQL_HOST}:3306/airflow
+#echo 6: setup configuration: sql_alchemy_conn = mysql://{USERNAME}:{PASSWORD}@{MYSQL_HOST}:3306/airflow
+#echo 7: open port 8080 to your IP
 #airflow users create --username admin --firstname FIRST_NAME --lastname LAST_NAME --role Admin --email admin@example.org
