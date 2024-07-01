@@ -12,11 +12,11 @@ export AIRFLOW_VERSION=2.6.0
 pip3 install "apache-airflow==${AIRFLOW_VERSION}" --constraint  https://raw.githubusercontent.com/apache/airflow/constraints-2.6.0/constraints-3.8.txt --break-system-packages
 
 #adding google operators (notice it may break due to versining):
-pip install apache-airflow-providers-google
+pip install apache-airflow-providers-google  --break-system-packages
 
 #addition to support AWS RDS Aurora
 sudo apt-get -y install python3-dev default-libmysqlclient-dev build-essential
-pip install mysqlclient
+pip install mysqlclient  --break-system-packages
 
 #addition to databricks
 pip install  apache-airflow-providers-databricks
