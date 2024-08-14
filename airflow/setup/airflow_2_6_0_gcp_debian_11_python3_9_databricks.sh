@@ -10,6 +10,9 @@ sudo apt-get -y install build-essential
 sudo apt -y install python3-pip
 export AIRFLOW_VERSION=2.6.0
 pip3 install "apache-airflow==${AIRFLOW_VERSION}" --constraint  https://raw.githubusercontent.com/apache/airflow/constraints-2.6.0/constraints-3.8.txt   
+# if you want v 2.9.3
+#pip install "apache-airflow[celery]==2.9.3" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.9.3/constraints-3.8.txt" --break-system-packages
+
 
 #adding google operators (notice it may break due to versining):
 pip install apache-airflow-providers-google   
